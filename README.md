@@ -31,7 +31,7 @@
 13. [ ] Management Perhitungan Poin Tim Mitra
 14. [ ] Layanan Periode Pencairan Point Mitra
 15. [ ] Layanan Klaim Reward Mitra
-16. [ ] Layanan Notifikasi Order Mutasi dalam Aplikas
+16. [ ] Layanan Notifikasi Order Mutasi dalam Aplikasi
 
 ## Deadline 
 Sebelum bulan 5
