@@ -34,4 +34,4 @@
 16. [ ] Layanan Notifikasi Order Mutasi dalam Aplikasi
 
 ## Deadline 
-Sebelum bulan 5
+Selesai sebelum bulan 5
