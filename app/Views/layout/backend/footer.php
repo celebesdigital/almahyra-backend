@@ -1,3 +1,7 @@
+				</div>
+				<!-- end page content -->
+			</div>
+			<!--end page wrapper -->
 		<!--start overlay-->
 		<div class="search-overlay"></div>
 		<div class="overlay toggle-icon"></div>
@@ -24,10 +28,8 @@
 	<script src="/plugins/highcharts/js/export-data.js"></script>
 	<script src="/plugins/highcharts/js/accessibility.js"></script>
 	<script src="/plugins/apexcharts-bundle/js/apexcharts.min.js"></script>
-    <script>
-		new PerfectScrollbar('.dashboard-top-countries');
-	</script>
-	<script src="/js/index.js"></script>
+	<script src="/vendors/fontawesome/all.min.js"></script>
+	<!-- <script src="/js/index.js"></script> -->
 	<!--app JS-->
 	<script src="/js/app.js"></script>
 </body>
