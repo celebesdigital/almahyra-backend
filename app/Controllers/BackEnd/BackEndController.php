@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Controllers\BackEnd;
+namespace App\Controllers\Backend;
 
 use App\Controllers\BaseController;
 
-class BackEndController extends BaseController
+class BackendController extends BaseController
 {
 	//
 }
