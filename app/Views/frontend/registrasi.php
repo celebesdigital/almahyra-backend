@@ -35,6 +35,12 @@
 
 												<!-- Form Input -->
 												<div class="col-md-12">
+													<p class="p-sm input-header">Alamat Email</p>
+													<input class="form-control" type="email" name="email" placeholder="Example@gmail.com">
+												</div>
+
+												<!-- Form Input -->
+												<div class="col-md-12">
 													<p class="p-sm input-header">No. Telpon (WA Aktif)</p>
 													<input class="form-control" type="number" name="telpon" placeholder="Nomor Telpon">
 												</div>
@@ -94,14 +100,6 @@
 													<button id="submit-registrasi" type="submit" class="btn btn--blue-400 hover--blue-500 submit disabled">Create Account</button>
 												</div>
 
-												<script>
-													const agree = document.getElementById('agreement');
-													const submit = document.getElementById('submit-registrasi');
-													agree.addEventListener('change', () => {
-														agree.checked ? submit.classList.replace('disabled', '--disable') : submit.classList.replace('--disable', 'disabled');
-														console.log(submit);
-													});
-												</script>
 
 												<!-- Log In Link -->
 												<div class="col-md-12">
