@@ -25,7 +25,7 @@ class HistoriMutasi extends Migration
 			],
 			'jenis_mutasi' => [
 				'type' => 'ENUM',
-				'constraint' => ['pusat ke ao', 'mitra ke mitra', 'mitra ke mitra']
+				'constraint' => ['pusat ke ao', 'mitra ke mitra', 'mitra ke seller']
 			],
 			'status' => [
 				'type' => 'ENUM',
