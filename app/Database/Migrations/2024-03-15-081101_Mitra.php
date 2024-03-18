@@ -52,8 +52,16 @@ class Mitra extends Migration
 				'default' => 0,
 			],
 			'stok' => [
-				'type'=> 'INT',
+				'type' => 'INT',
 				'default'=> 6,
+			],
+			'status' => [
+				'type' => 'ENUM',
+				'constraint' => ['ao', 'stokis', 'distributor', 'agen', 'reseller'],
+			],
+			'email' => [
+				'type' => 'VARCHAR',
+				'constraint' => 255,
 			]
 		]);
 
