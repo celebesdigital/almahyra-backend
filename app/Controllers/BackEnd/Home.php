@@ -1,9 +1,7 @@
 <?php
 namespace App\Controllers\BackEnd;
 
-use App\Controllers\BackEnd\BackEndController;
-
-class Home extends BackEndController
+class Home extends BackendController
 {
 	public function index()
 	{
