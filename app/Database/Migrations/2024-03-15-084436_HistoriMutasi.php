@@ -35,6 +35,7 @@ class HistoriMutasi extends Migration
 			'keterangan' => [
 				'type' => 'VARCHAR',
 				'null' => true,
+				'constraint' => 255,
 			],
 			'tanggal_order' => [
 				'type' => 'DATETIME',

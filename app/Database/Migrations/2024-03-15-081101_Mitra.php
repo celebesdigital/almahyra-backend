@@ -28,19 +28,19 @@ class Mitra extends Migration
 			],
 			'provinsi' => [
 				'type' => 'VARCHAR',
-				'constraint' => 100,
+				'constraint' => 255,
 			],
 			'kabupaten' => [
 				'type' => 'VARCHAR',
-				'constraint' => 100,
+				'constraint' => 255,
 			],
 			'kecamatan' => [
 				'type' => 'VARCHAR',
-				'constraint' => 100,
+				'constraint' => 255,
 			],
 			'alamat' => [
 				'type' => 'VARCHAR',
-				'constraint' => 100,
+				'constraint' => 255,
 			],
 			'kode_referal' => [
 				'type' => 'INT',

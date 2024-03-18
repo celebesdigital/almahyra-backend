@@ -12,6 +12,7 @@ class Reward extends Migration
 		$this->forge->addField([
 			'name' => [
 				'type' => 'VARCHAR',
+				'constraint' => 255,
 			],
 			'point' => [
 				'type' => 'INT',
