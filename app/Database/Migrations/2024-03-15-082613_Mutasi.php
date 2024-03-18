@@ -3,6 +3,8 @@
 namespace App\Database\Migrations;
 
 use CodeIgniter\Database\Migration;
+use CodeIgniter\Database\RawSql;
+
 
 class Mutasi extends Migration
 {
@@ -29,7 +31,7 @@ class Mutasi extends Migration
 			],
 			'status' => [
 				'type' => 'ENUM',
-				'constraint' => ['order', 'proses', 'kirim', 'terima'],
+				'constraint' => ['order', 'proses', 'kirim', 'selesai'],
 				'default' => 'order',
 			],
 			'keterangan' => [
@@ -39,7 +41,7 @@ class Mutasi extends Migration
 			],
 			'tanggal_order' => [
 				'type' => 'DATETIME',
-				'default' => date('Y-m-d H:i:s'),
+				'default' => new RawSql('CURRENT_TIMESTAMP'),
 			],
 			'tanggal_kirim' => [
 				'type' => 'DATETIME',
