@@ -29,7 +29,7 @@
 	<script src="/plugins/highcharts/js/accessibility.js"></script>
 	<script src="/plugins/apexcharts-bundle/js/apexcharts.min.js"></script>
 	<script src="/vendors/fontawesome/all.min.js"></script>
-	<script src="/js/index.js"></script>
+	<!-- <script src="/js/index.js"></script> -->
 	<!--app JS-->
 	<script src="/js/app.js"></script>
 </body>

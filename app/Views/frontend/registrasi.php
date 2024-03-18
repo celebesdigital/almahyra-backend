@@ -33,6 +33,17 @@ $this->section('content');
 										<p class="p-sm input-header">No. KTP</p>
 										<input class="form-control" type="number" name="ktp" placeholder="Nomor KTP">
 									</div>
+												<!-- Form Input -->
+												<div class="col-md-12">
+													<p class="p-sm input-header">No. KTP</p>
+													<input class="form-control" type="number" name="ktp" placeholder="Nomor KTP">
+												</div>
+
+												<!-- Form Input -->
+												<div class="col-md-12">
+													<p class="p-sm input-header">Alamat Email</p>
+													<input class="form-control" type="email" name="email" placeholder="Example@gmail.com">
+												</div>
 
 									<!-- Form Input -->
 									<div class="col-md-12">

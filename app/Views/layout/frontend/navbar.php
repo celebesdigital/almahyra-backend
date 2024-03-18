@@ -52,29 +52,11 @@
 
 												<!-- MEGAMENU LINKS -->
 												<ul class="col-md-12 col-lg-3 link-list">
-													<li><a href="features.html">Core Features</a></li>
-													<li class="fst-li"><a href="projects.html">Our Projects</a></li>
-													<li><a href="project-details.html">Project Details</a></li>
-													<li><a href="reviews.html">Testimonials</a></li>
-													<li><a href="download.html">Download Page</a></li>
-												</ul>
-
-												<!-- MEGAMENU LINKS -->
-												<ul class="col-md-12 col-lg-3 link-list">
 													<li class="fst-li"><a href="pricing-1.html">Pricing Page #1</a></li>
 													<li><a href="pricing-1.html">Pricing Page #2</a></li>
 													<li><a href="faqs.html">FAQs Page</a></li>
 													<li><a href="help-center.html">Help Center</a></li>
 													<li><a href="404.html">404 Page</a></li>
-												</ul>
-
-											<!-- MEGAMENU LINKS -->
-												<ul class="col-md-12 col-lg-3 link-list">
-													<li class="fst-li"><a href="blog-listing.html">Blog Listing</a></li>
-													<li><a href="single-post.html">Single Blog Post</a></li>
-													<li><a href="login-2.html">Login Page</a></li>
-													<li><a href="signup-2.html">Signup Page</a></li>
-													<li><a href="reset-password.html">Reset Password</a></li>
 												</ul>
 
 											</div>  <!-- End row -->
@@ -84,7 +66,7 @@
 
 
 								<!-- SIMPLE NAVIGATION LINK -->
-								<li class="nl-simple" aria-haspopup="true"><a href="pricing-1.html" class="h-link">Pricing</a></li>
+								<li class="nl-simple" aria-haspopup="true"><a href="pricing-1.html" class="h-link">Produk</a></li>
 
 
 								<!-- SIMPLE NAVIGATION LINK -->
@@ -93,13 +75,13 @@
 
 								<!-- SIGN IN LINK -->
 								<li class="nl-simple reg-fst-link mobile-last-link" aria-haspopup="true">
-									<a href="login-2.html" class="h-link">Sign in</a>
+									<a href="/login" class="h-link">Sign in</a>
 								</li>
 
 
 								<!-- SIGN UP BUTTON -->
 								<li class="nl-simple" aria-haspopup="true">
-									<a href="signup-2.html" class="btn r-04 btn--pink-400 hover--tra-white last-link">Sign up</a>
+									<a href="/registrasi" class="btn r-04 btn--pink-400 hover--tra-white last-link">Sign up</a>
 								</li>
 
 

@@ -53,6 +53,7 @@
 
 	<!-- TEMPLATE CSS -->
 	<link href="/_web/css/style.css" rel="stylesheet">
+	<link href="/_web/css/custom.css" rel="stylesheet">
 
 	<!-- RESPONSIVE CSS -->
 	<link href="/_web/css/responsive.css" rel="stylesheet">
