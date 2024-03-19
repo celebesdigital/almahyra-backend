@@ -62,7 +62,12 @@ class Mitra extends Migration
 			'email' => [
 				'type' => 'VARCHAR',
 				'constraint' => 255,
-			]
+			],
+			'valid' => [
+				'type'=> 'ENUM',
+				'constraint'=> ['false', 'true'],
+				'default' => 'false',
+			],
 		]);
 
 		$this->forge->createTable('mitra');
