@@ -22,9 +22,17 @@ class Mitra extends Migration
 				'type' => 'INT',
 				'constraint' => 16,
 			],
+			'email' => [
+				'type' => 'VARCHAR',
+				'constraint' => 255,
+			],
 			'nomor' => [
 				'type' => 'INT',
 				'constraint' => 13,
+			],
+			'alamat' => [
+				'type' => 'VARCHAR',
+				'constraint' => 255,
 			],
 			'provinsi' => [
 				'type' => 'VARCHAR',
@@ -35,10 +43,6 @@ class Mitra extends Migration
 				'constraint' => 255,
 			],
 			'kecamatan' => [
-				'type' => 'VARCHAR',
-				'constraint' => 255,
-			],
-			'alamat' => [
 				'type' => 'VARCHAR',
 				'constraint' => 255,
 			],
@@ -58,10 +62,6 @@ class Mitra extends Migration
 			'status' => [
 				'type' => 'ENUM',
 				'constraint' => ['ao', 'stokis', 'distributor', 'agen', 'reseller'],
-			],
-			'email' => [
-				'type' => 'VARCHAR',
-				'constraint' => 255,
 			],
 			'valid' => [
 				'type'=> 'ENUM',
