@@ -23,54 +23,55 @@ $this->section('content');
 
 									<!-- Form Input -->
 									<div class="col-md-12">
-										<p class="p-sm input-header">Nama Lengkap (sesuai ktp) </p>
-										<input class="form-control name" type="text" name="name"
+										<label for="name" class="p-sm input-header">Nama Lengkap (sesuai ktp) </label>
+										<input id="name" class="form-control name" type="text" name="name"
 											placeholder="Nama Lengkap">
 									</div>
 
 									<!-- Form Input -->
 									<div class="col-md-12">
-										<p class="p-sm input-header">No. KTP</p>
-										<input class="form-control" type="number" name="ktp" placeholder="Nomor KTP"
+										<label for="ktp" class="p-sm input-header">No. KTP</label>
+										<input id="ktp" class="form-control" type="number" name="ktp"
+											placeholder="Nomor KTP"
 											required maxlength="16">
 									</div>
 
 									<!-- Form Input -->
 									<div class="col-md-12">
-										<p class="p-sm input-header">Alamat Email</p>
-										<input class="form-control" type="email" name="email"
+										<label for="email" class="p-sm input-header">Alamat Email</label>
+										<input id="email" class="form-control" type="email" name="email"
 											placeholder="example@gmail.com">
 									</div>
 
 									<!-- Form Input -->
 									<div class="col-md-12">
-										<p class="p-sm input-header">No. Telpon (WA Aktif)</p>
-										<input class="form-control" type="number" name="nomor"
+										<label for="nomor" class="p-sm input-header">No. Telpon (WA Aktif)</label>
+										<input id="nomor" class="form-control" type="number" name="nomor"
 											placeholder="08xxxxxxxxx">
 									</div>
 
 
 									<!-- Form Input -->
 									<div class="col-md-12">
-										<p class="p-sm input-header">Alamat (sesuai ktp)</p>
-										<input class="form-control" type="text" name="alamat"
+										<label for="alamat" class="p-sm input-header">Alamat (sesuai ktp)</label>
+										<input id="alamat" class="form-control" type="text" name="alamat"
 											placeholder="JALAN XXXXXX">
 									</div>
 
 									<!-- Form Input -->
 									<div class="col-md-12">
-										<p class="p-sm input-header">Provinsi</p>
-										<select class="form-control" type="text" name="provinsi"
-											id="province" required>
+										<label for="provinsi" class="p-sm input-header">Provinsi</label>
+										<select id="provinsi" class="form-control" type="text" name="provinsi"
+											required>
 											<option value="">Pilih Provinsi</option>
 										</select>
 									</div>
 
 									<!-- Form Input -->
 									<div class="col-md-12">
-										<p class="p-sm input-header">Kabupaten</p>
-										<select class="form-control" type="text" name="kabupaten" placeholder=""
-											id="regencies" disabled>
+										<label for="kabupaten" class="p-sm input-header">Kabupaten</label>
+										<select id="kabupaten" class="form-control" type="text" name="kabupaten"
+											disabled>
 											<option value="">Pilih Kabupaten</option>
 
 										</select>
@@ -79,9 +80,9 @@ $this->section('content');
 
 									<!-- Form Input -->
 									<div class="col-md-12">
-										<p class="p-sm input-header">Kecamatan</p>
-										<select class="form-control" type="text" name="kecamatan" placeholder=""
-											id="district" disabled>
+										<label for="kecamatan" class="p-sm input-header">Kecamatan</label>
+										<select id="kecamatan" class="form-control" type="text" name="kecamatan"
+											disabled>
 											<option value="">Pilih Kecamatan</option>
 										</select>
 									</div>
@@ -89,8 +90,9 @@ $this->section('content');
 
 									<!-- Form Input -->
 									<div class="col-md-12">
-										<p class="p-sm input-header">Kode referal</p>
-										<input class="form-control" type="text" name="referal" placeholder="xxxxxxxx">
+										<label for="referal" class="p-sm input-header">Kode referal</label>
+										<input id="referal" class="form-control" type="text" name="referal"
+											placeholder="xxxxxxxx">
 									</div>
 
 
@@ -98,7 +100,8 @@ $this->section('content');
 									<div class="col-md-12">
 										<div class="form-data">
 											<div class="form-check">
-												<input class="form-check-input" type="checkbox" value="" id="agreement">
+												<input class="form-check-input" type="checkbox" value=""
+													id="agreement">
 												<label>
 													agree to our
 													<a href="terms.html" class="color--blue-400">Terms</a>
@@ -116,14 +119,7 @@ $this->section('content');
 											Account</button>
 									</div>
 
-									<script>
-										const agree = document.getElementById('agreement');
-										const submit = document.getElementById('submit-registrasi');
-										agree.addEventListener('change', () => {
-											agree.checked ? submit.classList.replace('disabled', '--disable') : submit.classList.replace('--disable', 'disabled');
-											console.log(submit);
-										});
-									</script>
+									
 
 									<!-- Log In Link -->
 									<div class="col-md-12">
@@ -156,7 +152,8 @@ $this->section('content');
 
 								<!-- Copyright -->
 								<div class="register-page-copyright">
-									<p class="p-sm">&copy; 2023 Martex. <span>All Rights Reserved</span></p>
+									<label for="" class="p-sm">&copy; 2023 Martex. <span>All Rights
+											Reserved</span></label>
 								</div>
 
 							</div>
@@ -174,9 +171,9 @@ $this->section('content');
 
 <script>
 
-	const provinceSelect = document.getElementById('province')
-	const regenciesSelect = document.getElementById('regencies')
-	const districtsSelect = document.getElementById('district')
+	const provinceSelect = document.getElementById('provinsi')
+	const regenciesSelect = document.getElementById('kabupaten')
+	const districtsSelect = document.getElementById('kecamatan')
 
 	async function getProvinces() {
 		try {
