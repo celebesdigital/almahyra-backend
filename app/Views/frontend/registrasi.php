@@ -19,13 +19,13 @@ $this->section('content');
 						<!-- SIGN UP FORM -->
 						<div class="col-md-6">
 							<div class="register-page-form">
-								<form name="signupform" class="row sign-up-form">
+								<form method="post" name="signupform" class="row sign-up-form">
 
 									<!-- Form Input -->
 									<div class="col-md-12">
 										<label for="name" class="p-sm input-header">Nama Lengkap (sesuai ktp) </label>
 										<input id="name" class="form-control name" type="text" name="name"
-											placeholder="Nama Lengkap">
+											placeholder="Nama Lengkap" required>
 									</div>
 
 									<!-- Form Input -->
@@ -33,21 +33,21 @@ $this->section('content');
 										<label for="ktp" class="p-sm input-header">No. KTP</label>
 										<input id="ktp" class="form-control" type="number" name="ktp"
 											placeholder="Nomor KTP"
-											required maxlength="16">
+											required max="9999999999999999" minlength="1000000000000000">
 									</div>
 
 									<!-- Form Input -->
 									<div class="col-md-12">
 										<label for="email" class="p-sm input-header">Alamat Email</label>
 										<input id="email" class="form-control" type="email" name="email"
-											placeholder="example@gmail.com">
+											placeholder="example@gmail.com" required>
 									</div>
 
 									<!-- Form Input -->
 									<div class="col-md-12">
 										<label for="nomor" class="p-sm input-header">No. Telpon (WA Aktif)</label>
 										<input id="nomor" class="form-control" type="number" name="nomor"
-											placeholder="08xxxxxxxxx">
+											placeholder="08xxxxxxxxx" required>
 									</div>
 
 
@@ -55,7 +55,7 @@ $this->section('content');
 									<div class="col-md-12">
 										<label for="alamat" class="p-sm input-header">Alamat (sesuai ktp)</label>
 										<input id="alamat" class="form-control" type="text" name="alamat"
-											placeholder="JALAN XXXXXX">
+											placeholder="JALAN XXXXXX" required>
 									</div>
 
 									<!-- Form Input -->
@@ -71,7 +71,7 @@ $this->section('content');
 									<div class="col-md-12">
 										<label for="kabupaten" class="p-sm input-header">Kabupaten</label>
 										<select id="kabupaten" class="form-control" type="text" name="kabupaten"
-											disabled>
+											disabled required>
 											<option value="">Pilih Kabupaten</option>
 
 										</select>
@@ -82,7 +82,7 @@ $this->section('content');
 									<div class="col-md-12">
 										<label for="kecamatan" class="p-sm input-header">Kecamatan</label>
 										<select id="kecamatan" class="form-control" type="text" name="kecamatan"
-											disabled>
+											disabled required>
 											<option value="">Pilih Kecamatan</option>
 										</select>
 									</div>
@@ -92,7 +92,7 @@ $this->section('content');
 									<div class="col-md-12">
 										<label for="referal" class="p-sm input-header">Kode referal</label>
 										<input id="referal" class="form-control" type="text" name="referal"
-											placeholder="xxxxxxxx">
+											placeholder="xxxxxxxx" required>
 									</div>
 
 
@@ -101,7 +101,7 @@ $this->section('content');
 										<div class="form-data">
 											<div class="form-check">
 												<input class="form-check-input" type="checkbox" value=""
-													id="agreement">
+													id="agreement" required>
 												<label>
 													agree to our
 													<a href="terms.html" class="color--blue-400">Terms</a>
@@ -115,8 +115,7 @@ $this->section('content');
 									<!-- Form Submit Button -->
 									<div class="col-md-12">
 										<button id="submit-registrasi" type="submit"
-											class="btn btn--blue-400 hover--blue-500 submit disabled">Create
-											Account</button>
+											class="btn btn--blue-400 hover--blue-500 submit ">Buat akun</button>
 									</div>
 
 									
