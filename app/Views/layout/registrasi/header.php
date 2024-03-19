@@ -8,13 +8,15 @@
 
 
 <!-- Mirrored from dsathemes.com/html/martex/files/demo-1.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Jun 2023 13:14:18 GMT -->
+
 <head>
 
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="author" content="DSAThemes">
 	<meta name="description" content="Martex - Software, App, SaaS & Startup Landing Pages Pack">
-	<meta name="keywords" content="Responsive, HTML5, DSAThemes, Landing, Software, Mobile App, SaaS, Startup, Creative, Digital Product">
+	<meta name="keywords"
+		content="Responsive, HTML5, DSAThemes, Landing, Software, Mobile App, SaaS, Startup, Creative, Digital Product">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!-- SITE TITLE -->
@@ -30,9 +32,12 @@
 	<link rel="icon" href="images/apple-touch-icon.png" type="image/x-icon">
 
 	<!-- GOOGLE FONTS -->
-	<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&amp;display=swap"
+		rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap"
+		rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap"
+		rel="stylesheet">
 
 	<!-- BOOTSTRAP CSS -->
 	<link href="/_web/css/bootstrap.min.css" rel="stylesheet">
@@ -57,6 +62,18 @@
 	<!-- RESPONSIVE CSS -->
 	<link href="/_web/css/responsive.css" rel="stylesheet">
 
+	<style>
+		input::-webkit-outer-spin-button,
+		input::-webkit-inner-spin-button {
+			-webkit-appearance: none;
+			margin: 0;
+		}
+
+		input[type=number] {
+			-moz-appearance: textfield;
+		}
+	</style>
+
 </head>
 
 
@@ -77,4 +94,4 @@
 
 		<?= $this->renderSection('content'); ?>
 
-<?= $this->include('layout/registrasi/footer') ?>
+		<?= $this->include('layout/registrasi/footer') ?>

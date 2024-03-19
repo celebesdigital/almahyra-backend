@@ -31,32 +31,30 @@ $this->section('content');
 									<!-- Form Input -->
 									<div class="col-md-12">
 										<p class="p-sm input-header">No. KTP</p>
-										<input class="form-control" type="number" name="ktp" placeholder="Nomor KTP">
+										<input class="form-control" type="number" name="ktp" placeholder="Nomor KTP"
+											required maxlength="16">
 									</div>
-												<!-- Form Input -->
-												<div class="col-md-12">
-													<p class="p-sm input-header">No. KTP</p>
-													<input class="form-control" type="number" name="ktp" placeholder="Nomor KTP">
-												</div>
 
-												<!-- Form Input -->
-												<div class="col-md-12">
-													<p class="p-sm input-header">Alamat Email</p>
-													<input class="form-control" type="email" name="email" placeholder="Example@gmail.com">
-												</div>
+									<!-- Form Input -->
+									<div class="col-md-12">
+										<p class="p-sm input-header">Alamat Email</p>
+										<input class="form-control" type="email" name="email"
+											placeholder="example@gmail.com">
+									</div>
 
 									<!-- Form Input -->
 									<div class="col-md-12">
 										<p class="p-sm input-header">No. Telpon (WA Aktif)</p>
 										<input class="form-control" type="number" name="nomor"
-											placeholder="Nomor Telpon">
+											placeholder="08xxxxxxxxx">
 									</div>
 
 
 									<!-- Form Input -->
 									<div class="col-md-12">
 										<p class="p-sm input-header">Alamat (sesuai ktp)</p>
-										<input class="form-control" type="text" name="alamat" placeholder="">
+										<input class="form-control" type="text" name="alamat"
+											placeholder="JALAN XXXXXX">
 									</div>
 
 									<!-- Form Input -->
@@ -92,7 +90,7 @@ $this->section('content');
 									<!-- Form Input -->
 									<div class="col-md-12">
 										<p class="p-sm input-header">Kode referal</p>
-										<input class="form-control" type="text" name="referal" placeholder="">
+										<input class="form-control" type="text" name="referal" placeholder="xxxxxxxx">
 									</div>
 
 
@@ -130,7 +128,7 @@ $this->section('content');
 									<!-- Log In Link -->
 									<div class="col-md-12">
 										<p class="create-account text-center">
-											Sudah Terdaftar? <a href="/login" class="color--blue-400">Log in</a>
+											Sudah terdaftar? <a href="/login" class="color--blue-400">Log in</a>
 										</p>
 									</div>
 
