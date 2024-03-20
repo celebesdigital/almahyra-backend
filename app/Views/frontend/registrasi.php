@@ -1,6 +1,7 @@
 <?php
 $this->extend('layout/registrasi/header');
 $this->section('content');
+dd(session('user'))
 ?>
 
 <!-- SIGN UP PAGE
@@ -23,9 +24,26 @@ $this->section('content');
 
 									<!-- Form Input -->
 									<div class="col-md-12">
-										<label for="name" class="p-sm input-header">Nama Lengkap (sesuai ktp) </label>
-										<input id="name" class="form-control name" type="text" name="name"
-											placeholder="Nama Lengkap" required>
+										<label for="nama" class="p-sm input-header">Nama Lengkap (sesuai ktp) </label>
+										<input id="nama" class="form-control name" type="text" name="nama"
+											placeholder="Nama Lengkap" required value="<?=old("nama")?>">
+										<p class = "text-danger"><?= isset(validation_errors()['nama']) ? validation_errors()['nama'] : null?></p>
+									</div>
+
+									<!-- Form Input -->
+									<div class="col-md-12">
+										<label for="username" class="p-sm input-header">Username </label>
+										<input id="username" class="form-control name" type="text" name="username"
+											placeholder="Username" required value="<?=old("username")?>">
+										<p class = "text-danger"><?= isset(validation_errors()['username']) ? validation_errors()['username'] : null?></p>
+									</div>
+
+									<!-- Form Input -->
+									<div class="col-md-12">
+										<label for="password" class="p-sm input-header">Password </label>
+										<input id="password" class="form-control name" type="password" name="password"
+											placeholder="Password" required value="">
+										<p class = "text-danger"><?= isset(validation_errors()['password']) ? validation_errors()['password'] : null?></p>
 									</div>
 
 									<!-- Form Input -->
@@ -33,21 +51,25 @@ $this->section('content');
 										<label for="ktp" class="p-sm input-header">No. KTP</label>
 										<input id="ktp" class="form-control" type="number" name="ktp"
 											placeholder="Nomor KTP"
-											required max="9999999999999999" minlength="1000000000000000">
+											required value="<?=old("ktp")?>" max="9999999999999999" minlength="1000000000000000">
+										<p class = "text-danger"><?= isset(validation_errors()['ktp']) ? validation_errors()['ktp']: null?></p>
+
 									</div>
 
 									<!-- Form Input -->
 									<div class="col-md-12">
 										<label for="email" class="p-sm input-header">Alamat Email</label>
 										<input id="email" class="form-control" type="email" name="email"
-											placeholder="example@gmail.com" required>
+											placeholder="example@gmail.com" required value="<?=old("email")?>">
+										<p class = "text-danger"><?= isset(validation_errors()['email']) ? validation_errors()['email']: null?></p>
 									</div>
 
 									<!-- Form Input -->
 									<div class="col-md-12">
 										<label for="nomor" class="p-sm input-header">No. Telpon (WA Aktif)</label>
 										<input id="nomor" class="form-control" type="number" name="nomor"
-											placeholder="08xxxxxxxxx" required>
+											placeholder="08xxxxxxxxx" required value="<?=old("nomor")?>">
+										<p class = "text-danger"><?= isset(validation_errors()['nomor']) ? validation_errors()['nomor']: null?></p>
 									</div>
 
 
@@ -55,14 +77,15 @@ $this->section('content');
 									<div class="col-md-12">
 										<label for="alamat" class="p-sm input-header">Alamat (sesuai ktp)</label>
 										<input id="alamat" class="form-control" type="text" name="alamat"
-											placeholder="JALAN XXXXXX" required>
+											placeholder="JALAN XXXXXX" required value="<?=old("alamat")?>">
+										<p class = "text-danger"><?= isset(validation_errors()['alamat']) ? validation_errors()['alamat']: null?></p>
 									</div>
 
 									<!-- Form Input -->
 									<div class="col-md-12">
 										<label for="provinsi" class="p-sm input-header">Provinsi</label>
 										<select id="provinsi" class="form-control" type="text" name="provinsi"
-											required>
+											required value="<?=old("provinsi")?>">
 											<option value="">Pilih Provinsi</option>
 										</select>
 									</div>
@@ -71,7 +94,7 @@ $this->section('content');
 									<div class="col-md-12">
 										<label for="kabupaten" class="p-sm input-header">Kabupaten</label>
 										<select id="kabupaten" class="form-control" type="text" name="kabupaten"
-											disabled required>
+											disabled required value="<?=old("kabupaten")?>">
 											<option value="">Pilih Kabupaten</option>
 
 										</select>
@@ -82,7 +105,7 @@ $this->section('content');
 									<div class="col-md-12">
 										<label for="kecamatan" class="p-sm input-header">Kecamatan</label>
 										<select id="kecamatan" class="form-control" type="text" name="kecamatan"
-											disabled required>
+											disabled required value="<?=old("kecamatan")?>">
 											<option value="">Pilih Kecamatan</option>
 										</select>
 									</div>
@@ -92,7 +115,8 @@ $this->section('content');
 									<div class="col-md-12">
 										<label for="referal" class="p-sm input-header">Kode referal</label>
 										<input id="referal" class="form-control" type="text" name="referal"
-											placeholder="xxxxxxxx" required>
+											placeholder="xxxxxxxx" required value="<?=old("referal")?>">
+										<p class = "text-danger"><?= isset(validation_errors()['referal']) ? validation_errors()['referal']: null?></p>
 									</div>
 
 

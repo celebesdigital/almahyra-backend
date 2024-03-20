@@ -18,6 +18,14 @@ class Mitra extends Migration
 				'type' => 'VARCHAR',
 				'constraint' => 30,
 			],
+			'username' => [
+				'type' => 'VARCHAR',
+				'constraint' => 255,
+			],
+			'password' => [
+				'type' => 'VARCHAR',
+				'constraint' => 255,
+			],
 			'ktp' => [
 				'type' => 'INT',
 				'constraint' => 16,
@@ -57,15 +65,15 @@ class Mitra extends Migration
 			],
 			'stok' => [
 				'type' => 'INT',
-				'default'=> 6,
+				'default' => 6,
 			],
 			'status' => [
 				'type' => 'ENUM',
 				'constraint' => ['ao', 'stokis', 'distributor', 'agen', 'reseller'],
 			],
 			'valid' => [
-				'type'=> 'ENUM',
-				'constraint'=> ['false', 'true'],
+				'type' => 'ENUM',
+				'constraint' => ['false', 'true'],
 				'default' => 'false',
 			],
 		]);
