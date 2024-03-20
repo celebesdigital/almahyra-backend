@@ -1,7 +1,6 @@
 <?php
 $this->extend('layout/registrasi/header');
 $this->section('content');
-dd(session('user'))
 ?>
 
 <!-- SIGN UP PAGE
@@ -19,6 +18,14 @@ dd(session('user'))
 
 						<!-- SIGN UP FORM -->
 						<div class="col-md-6">
+							<?php
+								if (session('akun')->valid === 'false') :
+									echo '<h2>Akun dalam proses validasi</h2>';
+								
+								
+							else :
+							?>
+
 							<div class="register-page-form">
 								<form method="post" name="signupform" class="row sign-up-form">
 
@@ -153,6 +160,7 @@ dd(session('user'))
 
 								</form>
 							</div>
+							<?php endif ?>
 						</div> <!-- END SIGN UP FORM -->
 
 
