@@ -20,9 +20,14 @@ $routes->post('/backend/mutasi/jual', 'BackEnd\Mutasi::jual');
 
 $routes->get('/', 'FrontEnd\Home::index');
 $routes->get('/login', 'FrontEnd\Registrasi::login');
+<<<<<<< HEAD
 
 $routes->get('/login2', 'FrontEnd\Registrasi::login2');
 $routes->get('/registrasi', 'FrontEnd\Registrasi::registrasi');
 
+=======
+$routes->get('/login2', 'FrontEnd\Registrasi::login2');
+$routes->get('/registrasi', 'FrontEnd\Registrasi::registrasi');
+>>>>>>> bc2842113da07fa365efe0743ecc15feaeb35971
 $routes->get('/registrasi', 'FrontEnd\Registrasi::registrasi');
 $routes->match((['get', 'post']), '/registrasi', 'FrontEnd\Registrasi::registrasi');
