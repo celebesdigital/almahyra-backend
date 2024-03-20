@@ -25,7 +25,7 @@
 
 	<div class="col">
 		<div class="row">
-			<div class="col">
+			<div class="col-12">
 				<div class="card radius-10">
 					<div class="card-body">
 						<div class="d-flex align-items-center">
@@ -34,8 +34,28 @@
 							</div>
 						</div>
 
-						<div class="table-responsive mt-3">
-							<table class="table align-middle mb-0">
+						<div class="row mt-3">
+							<!-- <div class="col-md-6">
+								<label for="status"class="form-label">status</label>
+								<input type="text" class="form-control" name="status" id="status" value="order" disabled />
+							</div> -->
+
+							<div class="col-12 mb-2">
+								<div class="row gap-2">
+									<div class="col">
+										<input type="text" class="form-control h-100 fs-3 text-center" id="jumlah" placeholder="Isi Jumlah">
+									</div>
+
+									<div class="col-md-10">
+										<textarea class="form-control" name="keterangan" id="keterangan" placeholder="Keterangan..." rows="6"></textarea>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-12 text-center">
+								<button type="submit" class="btn btn-primary w-100">Buat Order</button>
+							</div>
+							<!-- <table class="table align-middle mb-0">
 								<thead class="table-light">
 									<tr>
 										<th>Nama Pemesan</th>
@@ -251,7 +271,7 @@
 										</td>
 									</tr>
 								</tbody>
-							</table>
+							</table> -->
 						</div>
 
 					</div>

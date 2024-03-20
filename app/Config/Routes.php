@@ -21,7 +21,6 @@ $routes->post('/backend/mutasi/jual', 'BackEnd\Mutasi::jual');
 $routes->get('/', 'FrontEnd\Home::index');
 $routes->get('/login', 'FrontEnd\Registrasi::login');
 $routes->post('/login', 'FrontEnd\Registrasi::login');
-$routes->get('/login2', 'FrontEnd\Registrasi::login2');
+
 $routes->get('/registrasi', 'FrontEnd\Registrasi::registrasi');
-$routes->get('/registrasi', 'FrontEnd\Registrasi::registrasi');
-$routes->match((['get', 'post']), '/registrasi', 'FrontEnd\Registrasi::registrasi');
+$routes->post('/registrasi', 'FrontEnd\Registrasi::registrasi');
