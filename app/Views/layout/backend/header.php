@@ -42,11 +42,13 @@
 		<div class="sidebar-wrapper" data-simplebar="true">
 			<div class="sidebar-header">
 				<div>
-					<img src="/images/logo-icon.png" class="logo-icon" alt="logo icon">
+					<img src="/_web/images/logo/just-logo.png" class="logo-icon" alt="logo icon">
 				</div>
+
 				<div>
-					<h4 class="logo-text">Synadmin</h4>
+					<img src="/_web/images/logo/just-name.png" class="logo-name logo-text" alt="logo icon">
 				</div>
+
 				<div class="toggle-icon ms-auto"><i class='bx bx-first-page'></i>
 				</div>
 			</div>

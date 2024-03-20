@@ -16,7 +16,7 @@
 					</li>
 
 					<li>
-						<a href="/backend/mutasi/enduser" class="has-row">
+						<a href="/backend/mutasi/jual" class="has-row">
 							<div class="parent-icon"><i class='bx bxs-purchase-tag'></i></div>
 							<div class="menu-title">Jual</div>
 						</a>

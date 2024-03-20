@@ -1,0 +1,145 @@
+:root {
+	--green-1: #0b4619;
+	--green-light-1: #0b461952;
+	--green-1-hover: #1e572b;
+	--green-1-rgb: 11 70 25;
+	--gold-1: #FFCC1D;
+	--gold-2: #FFBB25;
+
+
+}
+
+.text-gold {
+	color: var(--gold-2);
+}
+
+.text-primary {
+	color: var(--green-1)!important;
+}
+
+.bg-primary {
+	background-color: var(--green-1)!important;
+}
+
+.border-primary {
+	border-color: var(--green-1)!important;
+}
+
+.bg-light-primary {
+	background-color: var(--green-light-1)!important;
+}
+
+.btn-primary {
+	color: #fff;
+	background-color: var(--green-1);
+	border-color: var(--green-1);
+}
+
+.btn-primary:hover {
+	color: #fff;
+	background-color: var(--green-1-hover);
+	border-color: var(--green-1-hover);
+}
+
+.example {
+	height: 250px;
+	width: 250px;
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	border: 6px solid white;
+	font-size: 75px;
+	margin-bottom: 40px;
+}
+
+.example .satuan {
+	line-height: 0;
+	font-size: 20px;
+}
+
+.sidebar-wrapper .metismenu a:hover, .sidebar-wrapper .metismenu a:focus, .sidebar-wrapper .metismenu a:active, .sidebar-wrapper .metismenu .mm-active>a {
+	color: var(--green-1);
+	text-decoration: none;
+	background: rgba(var(--green-1-rgb) / 12%);
+}
+
+.logo-name {
+	height: 23px;
+}
+
+.sidebar-wrapper {
+	z-index: 1201;
+}
+
+.sidebar-header {
+	background: var(--green-1);
+}
+
+.toggle-icon {
+	color: #ffffff;
+	margin-right: 3px;
+}
+
+.toggle-icon:hover {
+	background-color: var(--green-1-hover);
+}
+
+.topbar {
+	z-index: 1200;
+}
+
+.stok .card {
+	height: 100%;
+}
+
+/* =========================================== */
+/* ================= STATUS ================== */
+/*
+order
+proses
+kirim
+selesai
+batal
+*/
+
+.status-selesai {
+	background-color: rgb(41 204 57 / 15%) !important;
+	color: #15ca20 !important;
+}
+
+.status-order {
+	background-color: rgb(255 193 7 / 0.11) !important;
+	color: #ffc107 !important;
+}
+
+.status-proses {
+	background-color: rgb(84 110 255 / 17%) !important;
+	color: #0071ff !important;
+}
+
+.status-kirim {
+	background-color: rgb(0 0 0 / 17%) !important;
+	color: #1c4477 !important;
+}
+
+.status-batal {
+	background-color: rgb(230 46 46 / 15%) !important;
+	color: #fd3550 !important;
+}
+
+.order-action i {
+	font-size: 1.2em;
+	font-weight: 700;
+	width: auto;
+	height: auto;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	vertical-align: baseline;
+	line-height: 1;
+	text-align: center;
+	border-radius: 5px;
+	padding: 3px;
+}

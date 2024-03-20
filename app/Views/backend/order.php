@@ -48,13 +48,13 @@
 											</div>
 
 											<div class="col-md-10">
-												<textarea class="form-control" name="keterangan" id="keterangan" placeholder="Keterangan..." rows="3"></textarea>
+												<textarea class="form-control" name="keterangan" id="keterangan" placeholder="Keterangan..." rows="6"></textarea>
 											</div>
 										</div>
 									</div>
 
 									<div class="col-12 text-center">
-										<button type="submit" class="btn btn-primary px-5">Buat Order</button>
+										<button type="submit" class="btn btn-primary w-100">Buat Order</button>
 									</div>
 
 									<input type="hidden" name="id-penerima" id="id-user" value=""/>

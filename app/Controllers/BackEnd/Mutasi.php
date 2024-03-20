@@ -20,6 +20,11 @@ class Mutasi extends BackendController
 		return view('backend/order');
 	}
 
+	public function detail(int $idMutasi)
+	{
+		return view('backend/detail-order');
+	}
+
 	public function jual()
 	{
 		if ( $this->request->getPost() )
