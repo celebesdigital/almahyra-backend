@@ -19,10 +19,8 @@ $this->section('content');
 						<!-- SIGN UP FORM -->
 						<div class="col-md-6">
 							<?php
-								if (session('akun')->valid === 'false') :
+								if (isset(session('valid')->valid) && session('valid')->valid === 'false') :
 									echo '<h2>Akun dalam proses validasi</h2>';
-								
-								
 							else :
 							?>
 

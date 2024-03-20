@@ -7,31 +7,39 @@ class Registrasi extends FrontendController
 {
 	public function login()
 	{
-		return view('frontend/login');
-	}
+		$mitraModel = new Mitra;
 
-	public function login2()
-	{
-		return view('frontend/login2');
+		if (isset(session('user')->id) && $mitraModel->getValid(session('user')->id) === 'false') {
+			return view('frontend/menunggu-validasi');
+		}
+
+		if ($this->request->is('post')) {
+			$data = $this->request->getPost();
+			if ($mitraModel->tryLogin($data)) {
+				session()->set(['user' => $mitraModel->getId($data)]);
+				return redirect()->back();
+			}
+			return redirect()->back()->withInput()->with('error', 'Username atau password salah');
+		}
+		
+		return view('frontend/login');
 	}
 
 	public function registrasi()
 	{
-		$session = session();
-		$data = $this->request->getPost();
 
+		if (isset(session('user')->id)) {
+			return redirect()->to(site_url() . "login");
+		}
 		if ($this->request->is('post')) {
+			$data = $this->request->getPost();
+			$mitraModel = new Mitra;
 			if (!$this->validasi()) {
 				return redirect()->back()->withInput();
 			}
-			$mitraModel = new Mitra;
 			$mitraModel->addMitra($data);
-			$mitraModel->getValid($data);
-			$session->start();
-			session()->set(['akun'=> $mitraModel->getValid($data), 'user'=> $mitraModel->getId($data)]);
+			return redirect()->to(site_url() . "login");
 		}
-
-
 		return view('frontend/registrasi');
 	}
 

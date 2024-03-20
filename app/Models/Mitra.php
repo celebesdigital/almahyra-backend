@@ -46,15 +46,25 @@ class Mitra extends Model
 		$this->insert($data);
 	} 
 
-	public function getValid($data) {
-		return $this->select('valid')
-		->where('username', $data['username'])
-		->first();
+	public function getValid($id) {
+		return ($this->select('valid')
+		->where('id', $id)
+		->first())->valid;
 	}
 
 	public function getId($data) {
 		return $this->select('id')
 		->where('username', $data['username'])
 		->first();
+	}
+
+	public function tryLogin($data) {
+		$database = $this->select('password')
+		->where('username', $data['username'])
+		->first();
+		if (isset($database->password) && $database->password === hash('sha256', $data['password'])) {
+			return true;
+		}
+		return false;
 	}
 }

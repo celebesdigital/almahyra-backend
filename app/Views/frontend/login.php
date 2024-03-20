@@ -48,7 +48,7 @@
 									<!-- LOGIN FORM -->
 									<div class="col-md-6">
 										<div class="register-page-form">
-											<form name="signinform" class="row sign-in-form">
+											<form name="signinform" method="post" class="row sign-in-form">
 
 												<!-- Form Input -->
 												<div class="col-md-12">
@@ -64,6 +64,7 @@
 														<input class="form-control password" type="password" name="password" placeholder="Masukkan Password">
 													</div>
 												</div>
+												<p class = "text-danger"><?= session()->getFlashdata('error') ? session()->getFlashdata('error') : null ?></p>
 
 												<!-- Reset Password Link -->
 												<div class="col-md-12">
