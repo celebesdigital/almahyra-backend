@@ -8,6 +8,11 @@ class Registrasi extends FrontendController
 		return view('frontend/login');
 	}
 
+	public function login2()
+	{
+		return view('frontend/login2');
+	}
+
 	public function registrasi()
 	{
 		return view('frontend/registrasi');

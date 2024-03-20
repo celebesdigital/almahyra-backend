@@ -25,8 +25,7 @@
 											<img class="img-fluid" src="/_web/images/logo/LOGO-ALMAHYRA-2.png" alt="logo-image"
 											style="
 												width: auto;
-												max-height: 230px;
-												margin: -125px 0px -33px -8px;
+												max-height: 90px;
 											">
 
 
