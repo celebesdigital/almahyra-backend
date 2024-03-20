@@ -1,6 +1,7 @@
 <?php
 $this->extend('layout/registrasi/header');
 $this->section('content');
+dd(session('user'))
 ?>
 
 <!-- SIGN UP PAGE
@@ -19,60 +20,81 @@ $this->section('content');
 						<!-- SIGN UP FORM -->
 						<div class="col-md-6">
 							<div class="register-page-form">
-								<form name="signupform" class="row sign-up-form">
+								<form method="post" name="signupform" class="row sign-up-form">
 
 									<!-- Form Input -->
 									<div class="col-md-12">
-										<p class="p-sm input-header">Nama Lengkap (sesuai ktp) </p>
-										<input class="form-control name" type="text" name="name"
-											placeholder="Nama Lengkap">
+										<label for="nama" class="p-sm input-header">Nama Lengkap (sesuai ktp) </label>
+										<input id="nama" class="form-control name" type="text" name="nama"
+											placeholder="Nama Lengkap" required value="<?=old("nama")?>">
+										<p class = "text-danger"><?= isset(validation_errors()['nama']) ? validation_errors()['nama'] : null?></p>
 									</div>
 
 									<!-- Form Input -->
 									<div class="col-md-12">
-										<p class="p-sm input-header">No. KTP</p>
-										<input class="form-control" type="number" name="ktp" placeholder="Nomor KTP">
-									</div>
-												<!-- Form Input -->
-												<div class="col-md-12">
-													<p class="p-sm input-header">No. KTP</p>
-													<input class="form-control" type="number" name="ktp" placeholder="Nomor KTP">
-												</div>
-
-												<!-- Form Input -->
-												<div class="col-md-12">
-													<p class="p-sm input-header">Alamat Email</p>
-													<input class="form-control" type="email" name="email" placeholder="Example@gmail.com">
-												</div>
-
-									<!-- Form Input -->
-									<div class="col-md-12">
-										<p class="p-sm input-header">No. Telpon (WA Aktif)</p>
-										<input class="form-control" type="number" name="nomor"
-											placeholder="Nomor Telpon">
-									</div>
-
-
-									<!-- Form Input -->
-									<div class="col-md-12">
-										<p class="p-sm input-header">Alamat (sesuai ktp)</p>
-										<input class="form-control" type="text" name="alamat" placeholder="">
+										<label for="username" class="p-sm input-header">Username </label>
+										<input id="username" class="form-control name" type="text" name="username"
+											placeholder="Username" required value="<?=old("username")?>">
+										<p class = "text-danger"><?= isset(validation_errors()['username']) ? validation_errors()['username'] : null?></p>
 									</div>
 
 									<!-- Form Input -->
 									<div class="col-md-12">
-										<p class="p-sm input-header">Provinsi</p>
-										<select class="form-control" type="text" name="provinsi"
-											id="province" required>
+										<label for="password" class="p-sm input-header">Password </label>
+										<input id="password" class="form-control name" type="password" name="password"
+											placeholder="Password" required value="">
+										<p class = "text-danger"><?= isset(validation_errors()['password']) ? validation_errors()['password'] : null?></p>
+									</div>
+
+									<!-- Form Input -->
+									<div class="col-md-12">
+										<label for="ktp" class="p-sm input-header">No. KTP</label>
+										<input id="ktp" class="form-control" type="number" name="ktp"
+											placeholder="Nomor KTP"
+											required value="<?=old("ktp")?>" max="9999999999999999" minlength="1000000000000000">
+										<p class = "text-danger"><?= isset(validation_errors()['ktp']) ? validation_errors()['ktp']: null?></p>
+
+									</div>
+
+									<!-- Form Input -->
+									<div class="col-md-12">
+										<label for="email" class="p-sm input-header">Alamat Email</label>
+										<input id="email" class="form-control" type="email" name="email"
+											placeholder="example@gmail.com" required value="<?=old("email")?>">
+										<p class = "text-danger"><?= isset(validation_errors()['email']) ? validation_errors()['email']: null?></p>
+									</div>
+
+									<!-- Form Input -->
+									<div class="col-md-12">
+										<label for="nomor" class="p-sm input-header">No. Telpon (WA Aktif)</label>
+										<input id="nomor" class="form-control" type="number" name="nomor"
+											placeholder="08xxxxxxxxx" required value="<?=old("nomor")?>">
+										<p class = "text-danger"><?= isset(validation_errors()['nomor']) ? validation_errors()['nomor']: null?></p>
+									</div>
+
+
+									<!-- Form Input -->
+									<div class="col-md-12">
+										<label for="alamat" class="p-sm input-header">Alamat (sesuai ktp)</label>
+										<input id="alamat" class="form-control" type="text" name="alamat"
+											placeholder="JALAN XXXXXX" required value="<?=old("alamat")?>">
+										<p class = "text-danger"><?= isset(validation_errors()['alamat']) ? validation_errors()['alamat']: null?></p>
+									</div>
+
+									<!-- Form Input -->
+									<div class="col-md-12">
+										<label for="provinsi" class="p-sm input-header">Provinsi</label>
+										<select id="provinsi" class="form-control" type="text" name="provinsi"
+											required value="<?=old("provinsi")?>">
 											<option value="">Pilih Provinsi</option>
 										</select>
 									</div>
 
 									<!-- Form Input -->
 									<div class="col-md-12">
-										<p class="p-sm input-header">Kabupaten</p>
-										<select class="form-control" type="text" name="kabupaten" placeholder=""
-											id="regencies" disabled>
+										<label for="kabupaten" class="p-sm input-header">Kabupaten</label>
+										<select id="kabupaten" class="form-control" type="text" name="kabupaten"
+											disabled required value="<?=old("kabupaten")?>">
 											<option value="">Pilih Kabupaten</option>
 
 										</select>
@@ -81,9 +103,9 @@ $this->section('content');
 
 									<!-- Form Input -->
 									<div class="col-md-12">
-										<p class="p-sm input-header">Kecamatan</p>
-										<select class="form-control" type="text" name="kecamatan" placeholder=""
-											id="district" disabled>
+										<label for="kecamatan" class="p-sm input-header">Kecamatan</label>
+										<select id="kecamatan" class="form-control" type="text" name="kecamatan"
+											disabled required value="<?=old("kecamatan")?>">
 											<option value="">Pilih Kecamatan</option>
 										</select>
 									</div>
@@ -91,8 +113,10 @@ $this->section('content');
 
 									<!-- Form Input -->
 									<div class="col-md-12">
-										<p class="p-sm input-header">Kode referal</p>
-										<input class="form-control" type="text" name="referal" placeholder="">
+										<label for="referal" class="p-sm input-header">Kode referal</label>
+										<input id="referal" class="form-control" type="text" name="referal"
+											placeholder="xxxxxxxx" required value="<?=old("referal")?>">
+										<p class = "text-danger"><?= isset(validation_errors()['referal']) ? validation_errors()['referal']: null?></p>
 									</div>
 
 
@@ -100,7 +124,8 @@ $this->section('content');
 									<div class="col-md-12">
 										<div class="form-data">
 											<div class="form-check">
-												<input class="form-check-input" type="checkbox" value="" id="agreement">
+												<input class="form-check-input" type="checkbox" value=""
+													id="agreement" required>
 												<label>
 													agree to our
 													<a href="terms.html" class="color--blue-400">Terms</a>
@@ -114,23 +139,15 @@ $this->section('content');
 									<!-- Form Submit Button -->
 									<div class="col-md-12">
 										<button id="submit-registrasi" type="submit"
-											class="btn btn--blue-400 hover--blue-500 submit disabled">Create
-											Account</button>
+											class="btn btn--blue-400 hover--blue-500 submit ">Buat akun</button>
 									</div>
 
-									<script>
-										const agree = document.getElementById('agreement');
-										const submit = document.getElementById('submit-registrasi');
-										agree.addEventListener('change', () => {
-											agree.checked ? submit.classList.replace('disabled', '--disable') : submit.classList.replace('--disable', 'disabled');
-											console.log(submit);
-										});
-									</script>
+									
 
 									<!-- Log In Link -->
 									<div class="col-md-12">
 										<p class="create-account text-center">
-											Sudah Terdaftar? <a href="/login" class="color--blue-400">Log in</a>
+											Sudah terdaftar? <a href="/login" class="color--blue-400">Log in</a>
 										</p>
 									</div>
 
@@ -158,7 +175,8 @@ $this->section('content');
 
 								<!-- Copyright -->
 								<div class="register-page-copyright">
-									<p class="p-sm">&copy; 2023 Martex. <span>All Rights Reserved</span></p>
+									<label for="" class="p-sm">&copy; 2023 Martex. <span>All Rights
+											Reserved</span></label>
 								</div>
 
 							</div>
@@ -176,9 +194,9 @@ $this->section('content');
 
 <script>
 
-	const provinceSelect = document.getElementById('province')
-	const regenciesSelect = document.getElementById('regencies')
-	const districtsSelect = document.getElementById('district')
+	const provinceSelect = document.getElementById('provinsi')
+	const regenciesSelect = document.getElementById('kabupaten')
+	const districtsSelect = document.getElementById('kecamatan')
 
 	async function getProvinces() {
 		try {

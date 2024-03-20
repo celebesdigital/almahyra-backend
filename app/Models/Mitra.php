@@ -12,7 +12,7 @@ class Mitra extends Model
     protected $returnType       = 'object';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = ['nama', 'ktp', 'nomor', 'provinsi', 'kabupaten', 'kecamatan', 'alamat', 'stok', 'email'];
+    protected $allowedFields    = ['nama', 'ktp', 'nomor', 'provinsi', 'kabupaten', 'kecamatan', 'alamat', 'stok', 'email', 'username', 'password'];
 
     protected bool $allowEmptyInserts = false;
 
@@ -39,4 +39,22 @@ class Mitra extends Model
     protected $afterFind      = [];
     protected $beforeDelete   = [];
     protected $afterDelete    = [];
+
+	public function addMitra($data)
+	{
+		$data['password'] = hash("sha256", $data['password']);
+		$this->insert($data);
+	} 
+
+	public function getValid($data) {
+		return $this->select('valid')
+		->where('username', $data['username'])
+		->first();
+	}
+
+	public function getId($data) {
+		return $this->select('id')
+		->where('username', $data['username'])
+		->first();
+	}
 }

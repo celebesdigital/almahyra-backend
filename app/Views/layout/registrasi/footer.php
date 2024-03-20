@@ -23,15 +23,6 @@
 		<script src="/_web/js/custom.js"></script>
 
 
-		<script>
-			const agree = document.getElementById('agreement');
-			const submit = document.getElementById('submit-registrasi');
-			agree.addEventListener('change', () => {
-				agree.checked ? submit.classList.replace('disabled', '--disable') : submit.classList.replace('--disable', 'disabled');
-				console.log(submit);
-			});
-		</script>
-
 		<!-- <script>
 			$(document).on({
 				"contextmenu": function (e) {

@@ -18,13 +18,29 @@ class Mitra extends Migration
 				'type' => 'VARCHAR',
 				'constraint' => 30,
 			],
+			'username' => [
+				'type' => 'VARCHAR',
+				'constraint' => 255,
+			],
+			'password' => [
+				'type' => 'VARCHAR',
+				'constraint' => 255,
+			],
 			'ktp' => [
 				'type' => 'INT',
 				'constraint' => 16,
 			],
+			'email' => [
+				'type' => 'VARCHAR',
+				'constraint' => 255,
+			],
 			'nomor' => [
 				'type' => 'INT',
 				'constraint' => 13,
+			],
+			'alamat' => [
+				'type' => 'VARCHAR',
+				'constraint' => 255,
 			],
 			'provinsi' => [
 				'type' => 'VARCHAR',
@@ -35,10 +51,6 @@ class Mitra extends Migration
 				'constraint' => 255,
 			],
 			'kecamatan' => [
-				'type' => 'VARCHAR',
-				'constraint' => 255,
-			],
-			'alamat' => [
 				'type' => 'VARCHAR',
 				'constraint' => 255,
 			],
@@ -53,16 +65,17 @@ class Mitra extends Migration
 			],
 			'stok' => [
 				'type' => 'INT',
-				'default'=> 6,
+				'default' => 6,
 			],
 			'status' => [
 				'type' => 'ENUM',
 				'constraint' => ['ao', 'stokis', 'distributor', 'agen', 'reseller'],
 			],
-			'email' => [
-				'type' => 'VARCHAR',
-				'constraint' => 255,
-			]
+			'valid' => [
+				'type' => 'ENUM',
+				'constraint' => ['false', 'true'],
+				'default' => 'false',
+			],
 		]);
 
 		$this->forge->createTable('mitra');
