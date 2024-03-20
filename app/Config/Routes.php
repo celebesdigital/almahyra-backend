@@ -8,6 +8,8 @@ use CodeIgniter\Router\RouteCollection;
 $routes->get('/backend', 'BackEnd\Home::index');
 
 $routes->get('/backend/stok', 'BackEnd\Stok::index');
+$routes->get('/backend/kantor/stok', 'BackEnd\Stok::index');
+$routes->get('/backend/mitra/stok', 'BackEnd\Stok::index');
 
 $routes->get('/backend/mutasi', 'BackEnd\Mutasi::index');
 $routes->post('/backend/mutasi', 'BackEnd\Mutasi::index');
@@ -18,5 +20,10 @@ $routes->post('/backend/mutasi/jual', 'BackEnd\Mutasi::jual');
 
 $routes->get('/', 'FrontEnd\Home::index');
 $routes->get('/login', 'FrontEnd\Registrasi::login');
+<<<<<<< HEAD
+$routes->get('/login2', 'FrontEnd\Registrasi::login2');
+$routes->get('/registrasi', 'FrontEnd\Registrasi::registrasi');
+=======
 $routes->get('/registrasi', 'FrontEnd\Registrasi::registrasi');
 $routes->match((['get', 'post']), '/registrasi', 'FrontEnd\Registrasi::registrasi');
+>>>>>>> 6f0022689c62b9613a27ebd6a35953ac9a3bc05d

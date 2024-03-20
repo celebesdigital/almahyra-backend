@@ -32,6 +32,7 @@
 	<!-- <script src="/js/index.js"></script> -->
 	<!--app JS-->
 	<script src="/js/app.js"></script>
+	<script src="/js/custom.js"></script>
 </body>
 
 </html>

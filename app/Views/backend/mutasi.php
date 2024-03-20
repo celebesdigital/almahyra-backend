@@ -390,14 +390,5 @@
 						</div>
 					</div>
 
-<script>
-	const topbar = document.querySelector('.topbar');
-	const cardSticky = document.querySelectorAll('.card-sticky');
-	let pointTop = topbar.offsetHeight;
-	cardSticky.forEach(ele => {
-		ele.style.top = '60px';
-	})
-	// console.log(topbar.offsetHeight);
-</script>
 
 <?php $this->endSection(); ?>
