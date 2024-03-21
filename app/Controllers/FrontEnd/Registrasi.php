@@ -9,11 +9,11 @@ class Registrasi extends FrontendController
 	{
 		$mitraModel = new Mitra;
 
-		if (isset(session('user')->id) && $mitraModel->getValid(session('user')->id) === 'false') {
+		if (isset (session('user')->id) && $mitraModel->getValid(session('user')->id) === 'false') {
 			return view('frontend/menunggu-validasi');
 		}
 
-		if (isset(session('user')->id) && $mitraModel->getValid(session('user')->id) === 'true') {
+		if (isset (session('user')->id) && $mitraModel->getValid(session('user')->id) === 'true') {
 			return redirect()->to('/backend');
 		}
 
@@ -25,14 +25,14 @@ class Registrasi extends FrontendController
 			}
 			return redirect()->back()->withInput()->with('error', 'Username atau password salah');
 		}
-		
+
 		return view('frontend/login');
 	}
 
 	public function registrasi()
 	{
 
-		if (isset(session('user')->id)) {
+		if (isset (session('user')->id)) {
 			return redirect()->to(site_url() . "login");
 		}
 		if ($this->request->is('post')) {
@@ -144,9 +144,6 @@ class Registrasi extends FrontendController
 			]
 		]);
 
-		if ($validation->run($userInput)) {
-			return true;
-		}
-		return false;
+		return $validation->run($userInput);
 	}
 }
