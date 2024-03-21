@@ -12,7 +12,7 @@ class Mitra extends Model
     protected $returnType       = 'object';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = ['nama', 'ktp', 'nomor', 'provinsi', 'kabupaten', 'kecamatan', 'alamat', 'stok', 'email', 'username', 'password'];
+    protected $allowedFields    = ['nama', 'ktp', 'nomor', 'provinsi', 'kabupaten', 'kecamatan', 'alamat', 'stok', 'email', 'username', 'password', 'id_upline'];
 
     protected bool $allowEmptyInserts = false;
 
@@ -43,13 +43,18 @@ class Mitra extends Model
 	public function addMitra($data)
 	{
 		$data['password'] = hash("sha256", $data['password']);
+		$data ['id_upline'] = $this->addUpline($data['referal']);
 		$this->insert($data);
 	} 
 
 	public function getValid($id) {
-		return ($this->select('valid')
+		return isset(($this->select('valid')
 		->where('id', $id)
-		->first())->valid;
+		->first())->valid) 
+		? $this->select('valid')
+		->where('id', $id)
+		->first()->valid 
+		: null;
 	}
 
 	public function getId($data) {
@@ -72,5 +77,11 @@ class Mitra extends Model
 			return true;
 		}
 		return false;
+	}
+
+	private function addUpline($kode_referal) {
+		return $this->select('id')
+		->where('kode_referal', $kode_referal)
+		->first()->id;		
 	}
 }

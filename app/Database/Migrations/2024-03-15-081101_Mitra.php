@@ -74,7 +74,7 @@ class Mitra extends Migration
 			],
 			'status' => [
 				'type' => 'ENUM',
-				'constraint' => ['ao', 'stokis', 'distributor', 'agen', 'reseller'],
+				'constraint' => ['kantor', 'ao', 'stokis', 'distributor', 'agen', 'reseller'],
 			],
 			'valid' => [
 				'type' => 'ENUM',
