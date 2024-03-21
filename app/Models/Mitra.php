@@ -58,6 +58,12 @@ class Mitra extends Model
 		->first();
 	}
 
+	public function getStock() {
+		return $this->select('stok')
+		->where('id', session('user')->id)
+		->first();
+	}
+
 	public function tryLogin($data) {
 		$database = $this->select('password')
 		->where('username', $data['username'])

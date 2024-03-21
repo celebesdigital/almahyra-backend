@@ -13,6 +13,10 @@ class Registrasi extends FrontendController
 			return view('frontend/menunggu-validasi');
 		}
 
+		if (isset(session('user')->id) && $mitraModel->getValid(session('user')->id) === 'true') {
+			return redirect()->to('/backend');
+		}
+
 		if ($this->request->is('post')) {
 			$data = $this->request->getPost();
 			if ($mitraModel->tryLogin($data)) {
@@ -81,7 +85,7 @@ class Registrasi extends FrontendController
 					'required' => '{field} butuh di isi',
 					'exact_length' => '{field} harus {param} digit angka',
 					'numeric' => '{field} cuma bisa angka',
-					'is_unique' => '{label} sudah terdaftar di database'
+					'is_unique' => '{field} sudah terdaftar di database'
 				]
 			],
 			'email' => [
