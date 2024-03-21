@@ -41,7 +41,6 @@ class Mutasi extends Migration
 			],
 			'nomor_transaksi' => [
 				'type'=> 'INT',
-				'constaraint' => 10,
 			],
 			'tanggal_order' => [
 				'type' => 'DATETIME',

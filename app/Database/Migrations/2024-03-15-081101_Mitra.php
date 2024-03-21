@@ -27,16 +27,18 @@ class Mitra extends Migration
 				'constraint' => 255,
 			],
 			'ktp' => [
-				'type' => 'INT',
+				'type' => 'BIGINT',
 				'constraint' => 16,
+				'unsigned' => true,
 			],
 			'email' => [
 				'type' => 'VARCHAR',
 				'constraint' => 255,
 			],
 			'nomor' => [
-				'type' => 'INT',
+				'type' => 'MEDIUMINT',
 				'constraint' => 13,
+				'unsigned' => true,
 			],
 			'alamat' => [
 				'type' => 'VARCHAR',
@@ -58,14 +60,17 @@ class Mitra extends Migration
 				'type' => 'INT',
 				'constraint' => 15,
 				'null' => true,
+				'unsigned' => true,
 			],
 			'point' => [
 				'type' => 'INT',
 				'default' => 0,
+				'unsigned' => true,
 			],
 			'stok' => [
 				'type' => 'INT',
 				'default' => 6,
+				'unsigned' => true,
 			],
 			'status' => [
 				'type' => 'ENUM',

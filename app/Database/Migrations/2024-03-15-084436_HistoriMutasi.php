@@ -39,7 +39,7 @@ class HistoriMutasi extends Migration
 			],
 			'nomor_transaksi' => [
 				'type'=> 'INT',
-				'constaraint' => 10,
+				'unsigned' => true,
 			],
 			'tanggal_order' => [
 				'type' => 'DATETIME',
