@@ -33,7 +33,7 @@ class Registrasi extends FrontendController
 	{
 
 		if (isset (session('user')->id)) {
-			return redirect()->to(site_url() . "login");
+			return redirect()->to("login");
 		}
 		if ($this->request->is('post')) {
 			$data = $this->request->getPost();
@@ -42,9 +42,15 @@ class Registrasi extends FrontendController
 				return redirect()->back()->withInput();
 			}
 			$mitraModel->addMitra($data);
-			return redirect()->to(site_url() . "login");
+			return redirect()->to("login");
 		}
 		return view('frontend/registrasi');
+	}
+
+	public function logout() {
+		session()->destroy();
+
+		return redirect()->to("/");
 	}
 
 	private function validasi()

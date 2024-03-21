@@ -24,3 +24,5 @@ $routes->post('/login', 'FrontEnd\Registrasi::login');
 
 $routes->get('/registrasi', 'FrontEnd\Registrasi::registrasi');
 $routes->post('/registrasi', 'FrontEnd\Registrasi::registrasi');
+
+$routes->get('/logout', 'FrontEnd\Registrasi::logout');
