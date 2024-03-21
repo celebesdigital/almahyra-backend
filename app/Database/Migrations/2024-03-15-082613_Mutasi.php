@@ -34,10 +34,14 @@ class Mutasi extends Migration
 				'constraint' => ['order', 'proses', 'kirim', 'selesai'],
 				'default' => 'order',
 			],
-			'keterangan' => [
+			'catatan' => [
 				'type' => 'VARCHAR',
 				'null' => true,
 				'constraint' => 255,
+			],
+			'nomor_transaksi' => [
+				'type'=> 'INT',
+				'constaraint' => 10,
 			],
 			'tanggal_order' => [
 				'type' => 'DATETIME',
