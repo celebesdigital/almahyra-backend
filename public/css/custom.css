@@ -9,6 +9,10 @@
 
 }
 
+.min-height-240 {
+	min-height: 240px;
+}
+
 .text-gold {
 	color: var(--gold-2);
 }
@@ -97,7 +101,7 @@
 	background-color: var(--green-1-hover);
 }
 
-.topbar {
+.topbar, .page-footer {
 	z-index: 1200;
 }
 
@@ -107,14 +111,6 @@
 
 /* =========================================== */
 /* ================= STATUS ================== */
-/*
-order
-proses
-kirim
-selesai
-batal
-*/
-
 .status-selesai {
 	background-color: rgb(41 204 57 / 15%) !important;
 	color: #15ca20 !important;
@@ -168,9 +164,27 @@ batal
 	width: 100%;
 	height: auto;
 }
-@media ( max-width: 991px ) {
+
+.text-ellipsis {
+	text-overflow: ellipsis;
+	max-width: 250px;
 }
 
-#login .register-page-wrapper:after, #signup .register-page-wrapper:after {
-	background-color: transparent;
+.back-to-top {
+	background-color: var(--green-1);
+}
+
+.modal {
+	z-index: 1205
+}
+
+.cc-gap-1 {
+	gap: 5px;
+}
+
+.btn-group-sm>.btn, .btn-sm {
+	--bs-btn-padding-y: 3px;
+	--bs-btn-padding-x: 0.5rem;
+	--bs-btn-font-size: 0.675rem;
+	--bs-btn-border-radius: var(--bs-border-radius-sm);
 }

@@ -4,6 +4,7 @@
 ?>
 
 
+
 				<div class="dash-wrapper dash-header">
 					<div class="row row-cols-1 row-cols-md-2 row-cols-xl-4 row-cols-xxl-5">
 						<div class="col border-end border-light-2">
@@ -57,6 +58,59 @@
 						</div>
 					</div>
 					</div><!--end row-->
+				</div>
+
+				<!-- Daftar Akun Belum Valid -->
+				<div class="col">
+					<div class="card radius-10">
+						<div class="card-body">
+							<div class="d-flex align-items-center">
+								<div>
+									<h5 class="mb-1">Daftar permintaan validasi akun</h5>
+								</div>
+							</div>
+
+							<div class="table-responsive mt-3 min-height-240">
+								<table class="table align-middle mb-0">
+									<thead class="table-light">
+										<tr class="align-top">
+											<th>Nama</th>
+											<th>Alamat</th>
+											<th>Daerah<br><span class="fw-normal">kec/kab/prov</span></th>
+											<th>Tanggal Registrasi</th>
+											<th>Level Mitra</th>
+											<th>Upline</th>
+											<th class="text-center">Aksi</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td><h6 class="mb-1 font-14">Light Red T-Shirt</h6></td>
+											<td>Jl. Andi Djemma</td>
+											<td>Rappocini, Makassar, Sulawesi Selatan</td>
+											<td>22 Jun, 2020</td>
+											<td>Reseller</td>
+											<td>Popol Kupa</td>
+											<td class="d-flex cc-gap-1">
+												<button type="button" class="btn btn-sm btn-success w-100">validasi</button>
+												<div class="dropdown ms-auto order-action">
+													<div class="cursor-pointer dropdown-toggle dropdown-toggle-nocaret text-center" data-bs-toggle="dropdown" aria-expanded="false">
+														<i class="bx status-kirim bx-dots-vertical-rounded text-option"></i>
+													</div>
+													<div class="dropdown-menu dropdown-menu-end" data-popper-placement="bottom-end" style="position: absolute; inset: 0px 0px auto auto; margin: 0px; transform: translate3d(-0.8px, 40px, 0px);">
+														<a class="dropdown-item" href="http://wa.me/6281342989230?teks=Assalamualaikum%0AApakah%20benar%20ada%20reseller%20baru%20yang%20mendaftar%20menggunakan%20kode%20referalmu">Hubungi Upline</a>
+														<div class="dropdown-divider"></div>
+														<a class="dropdown-item" href="javaScript:;">Hapus</a>
+													</div>
+												</div>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+
+						</div>
+					</div>
 				</div>
 
 				<div class="row row-cols-1 row-cols-xl-2">
