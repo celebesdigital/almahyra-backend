@@ -6,10 +6,15 @@ use CodeIgniter\Router\RouteCollection;
  * @var RouteCollection $routes
  */
 
-$routes->group('/backend', static function ($routes) {
+$routes->group('backend', static function ($routes) {
     $routes->get('', 'BackEnd\Home::index');
 
 	$routes->get('stok', 'BackEnd\Stok::index');
+
+	$routes->get('profile', 'BackEnd\Profile::index');
+
+	$routes->get('mitra-list', 'BackEnd\MitraList::index');
+	$routes->get('mitra-list/registrasi-ao', 'BackEnd\MitraList::registrasiAo');
 
     $routes->group('mutasi', static function ($routes) {
         $routes->get('', 'BackEnd\Mutasi::index');

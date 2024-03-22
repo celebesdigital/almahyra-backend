@@ -13,7 +13,7 @@ class Stok extends BackEndController
 		$data = [
 			"stok" => $mitraModel->getStock()->stok
 		];
-		
+
         return view('backend/stok', $data);
     }
 }

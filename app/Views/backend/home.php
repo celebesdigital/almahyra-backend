@@ -98,7 +98,7 @@
 														<i class="bx status-kirim bx-dots-vertical-rounded text-option"></i>
 													</div>
 													<div class="dropdown-menu dropdown-menu-end" data-popper-placement="bottom-end" style="position: absolute; inset: 0px 0px auto auto; margin: 0px; transform: translate3d(-0.8px, 40px, 0px);">
-														<a class="dropdown-item" href="http://wa.me/6281342989230?teks=Assalamualaikum%0AApakah%20benar%20ada%20reseller%20baru%20yang%20mendaftar%20menggunakan%20kode%20referalmu">Hubungi Upline</a>
+														<a class="dropdown-item" target="_blank" href="http://wa.me/6281342989230?teks=Assalamualaikum%0AApakah%20benar%20ada%20reseller%20baru%20yang%20mendaftar%20menggunakan%20kode%20referalmu">Hubungi Upline</a>
 														<div class="dropdown-divider"></div>
 														<a class="dropdown-item" href="javaScript:;">Hapus</a>
 													</div>
