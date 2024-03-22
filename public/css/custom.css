@@ -149,6 +149,8 @@
 	text-align: center;
 	border-radius: 5px;
 	padding: 3px;
+	background-color: rgb(0 0 0 / 17%) !important;
+	color: #1c4477 !important;
 }
 
 .profile {
@@ -175,7 +177,7 @@
 }
 
 .modal {
-	z-index: 1205
+	z-index: 1205;
 }
 
 .cc-gap-1 {
@@ -187,4 +189,8 @@
 	--bs-btn-padding-x: 0.5rem;
 	--bs-btn-font-size: 0.675rem;
 	--bs-btn-border-radius: var(--bs-border-radius-sm);
+}
+
+.modal-header {
+	align-items: flex-start;
 }

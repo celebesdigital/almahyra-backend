@@ -14,3 +14,6 @@ function manageTop(a, b, c) {
 		ele.style.top = pointTop+"px";
 	});
 }
+
+const catatanPlace = document.getElementById('catatan-place');
+function dataCatatan(a) { catatanPlace.textContent = a }
