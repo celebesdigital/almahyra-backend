@@ -13,6 +13,7 @@ class Mitra extends Migration
 			'id_upline' => [
 				'type' => 'INT',
 				'unsigned' => true,
+				'null'=> true,
 			],
 			'nama' => [
 				'type' => 'VARCHAR',
@@ -34,6 +35,21 @@ class Mitra extends Migration
 			'email' => [
 				'type' => 'VARCHAR',
 				'constraint' => 255,
+			],
+			'facebook' => [
+				'type' => 'VARCHAR',
+				'constraint' => 255,
+				'null' => true,
+			],
+			'instagram' => [
+				'type' => 'VARCHAR',
+				'constraint' => 255,
+				'null' => true,
+			],
+			'tiktok' => [
+				'type' => 'VARCHAR',
+				'constraint' => 255,
+				'null' => true,
 			],
 			'nomor' => [
 				'type' => 'MEDIUMINT',
@@ -72,14 +88,14 @@ class Mitra extends Migration
 				'default' => 6,
 				'unsigned' => true,
 			],
-			'status' => [
+			'level' => [
 				'type' => 'ENUM',
 				'constraint' => ['kantor', 'ao', 'stokis', 'distributor', 'agen', 'reseller'],
 			],
-			'valid' => [
+			'status' => [
 				'type' => 'ENUM',
-				'constraint' => ['false', 'true'],
-				'default' => 'false',
+				'constraint' => ['tidak valid', 'valid'],
+				'default' => 'tidak valid',
 			],
 		]);
 
