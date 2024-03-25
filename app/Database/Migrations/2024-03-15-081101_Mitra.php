@@ -15,6 +15,10 @@ class Mitra extends Migration
 				'unsigned' => true,
 				'null'=> true,
 			],
+			'nomor_id'=> [
+				'type'=> 'VARCHAR',
+				'constraint' => 255,
+			],
 			'nama' => [
 				'type' => 'VARCHAR',
 				'constraint' => 30,
