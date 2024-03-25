@@ -13,12 +13,17 @@ $routes->group("backend", ["filter" => "authFilter"], function ($routes) {
 	$routes->get('kantor/stok', 'BackEnd\Stok::index');
 	$routes->get('mitra/stok', 'BackEnd\Stok::index');
 
-	$routes->get('mutasi', 'BackEnd\Mutasi::index');
-	$routes->post('mutasi', 'BackEnd\Mutasi::index');
-	$routes->get('mutasi/order', 'BackEnd\Mutasi::order');
-	$routes->get('mutasi/order/(:num)', 'BackEnd\Mutasi::detail/$1');
-	$routes->get('mutasi/jual', 'BackEnd\Mutasi::jual');
-	$routes->post('mutasi/jual', 'BackEnd\Mutasi::jual');
+	$routes->get('profile', 'BackEnd\Profile::index');
+
+	$routes->get('mitra-list', 'BackEnd\MitraList::index');
+	$routes->get('mitra-list/registrasi-ao', 'BackEnd\MitraList::registrasiAo');
+});
+
+$routes->group('mutasi', static function ($routes) {
+	$routes->get('', 'BackEnd\Mutasi::index');
+	$routes->get('order', 'BackEnd\Mutasi::order');
+	$routes->get('order/(:num)', 'BackEnd\Mutasi::detail/$1');
+	$routes->match(['get', 'post'], 'jual', 'BackEnd\Mutasi::jual');
 });
 
 $routes->get('/', 'FrontEnd\Home::index');

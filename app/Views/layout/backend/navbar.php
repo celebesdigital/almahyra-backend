@@ -37,7 +37,7 @@
 					</li>
 
 					<li>
-						<a href="/backend/mitra/list" class="has-row">
+						<a href="/backend/mitra-list" class="has-row">
 							<div class="parent-icon"><i class='bx bxs-contact'></i></div>
 							<div class="menu-title">Daftar Mitra</div>
 						</a>
@@ -48,7 +48,7 @@
 					<hr>
 
 					<li>
-						<a href="/profile" class="has-row">
+						<a href="/backend/profile" class="has-row">
 							<div class="parent-icon"><i class='bx bx-user'></i></div>
 							<div class="menu-title">Profile</div>
 						</a>

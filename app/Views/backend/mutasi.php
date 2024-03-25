@@ -169,15 +169,17 @@
 									<table class="table align-middle mb-0">
 										<thead class="table-light">
 											<tr>
+												<th>No. Mutasi</th>
 												<th>Nama Pemesan</th>
+												<th>Jumlah</th>
 												<th>Tanggal Order</th>
 												<th>Status</th>
-												<th>Jumlah</th>
 												<th class="text-center">Ket</th>
 											</tr>
 										</thead>
 										<tbody>
 											<tr>
+												<td>#149.25</td>
 												<td>
 													<a href="/backend/mutasi/order/12">
 														<div class="d-flex align-items-center">
@@ -190,9 +192,9 @@
 														</div>
 													</a>
 												</td>
-												<td>22 Jun, 2020</td>
-												<td class=""><span class="badge status-selesai w-100">Selesai</span></td>
 												<td>#149.25</td>
+												<td>22 Jun, 2020</td>
+												<td class=""><span class="badge status-proses w-100 text-capitalize">proses</span></td>
 												<td>
 													<div class="dropdown ms-auto order-action">
 														<div class="cursor-pointer dropdown-toggle dropdown-toggle-nocaret text-center" data-bs-toggle="dropdown" aria-expanded="false">
@@ -208,19 +210,22 @@
 												</td>
 											</tr>
 											<tr>
-												<td>
-												<div class="d-flex align-items-center">
-													<div class="recent-product-img rounded-circle">
-														<img src="/images/products/16.png" alt="">
-													</div>
-													<div class="ms-2">
-														<h6 class="mb-1 font-14">Grey Headphone</h6>
-													</div>
-												</div>
-												</td>
-												<td>22 Jun, 2020</td>
-												<td class=""><span class="badge status-batal w-100">Batal</span></td>
 												<td>#149.25</td>
+												<td>
+													<a href="/backend/mutasi/order/12">
+														<div class="d-flex align-items-center">
+															<div class="recent-product-img rounded-circle">
+																<img src="/images/products/16.png" alt="">
+															</div>
+															<div class="ms-2">
+																<h6 class="mb-1 font-14">Grey Headphone</h6>
+															</div>
+														</div>
+													</a>
+												</td>
+												<td>#149.25</td>
+												<td>22 Jun, 2020</td>
+												<td class=""><span class="badge status-kirim w-100 text-capitalize">Batal</span></td>
 												<td>
 													<div class="dropdown ms-auto order-action">
 														<div class="cursor-pointer dropdown-toggle dropdown-toggle-nocaret text-center" data-bs-toggle="dropdown" aria-expanded="false">
@@ -237,19 +242,22 @@
 												</td>
 											</tr>
 											<tr>
+												<td>#149.25</td>
 												<td>
-												<div class="d-flex align-items-center">
-													<div class="recent-product-img rounded-circle">
-														<img src="/images/products/19.png" alt="">
-													</div>
-													<div class="ms-2">
-														<h6 class="mb-1 font-14">Grey Hand Watch</h6>
-													</div>
-												</div>
+													<a href="/backend/mutasi/order/12">
+														<div class="d-flex align-items-center">
+															<div class="recent-product-img rounded-circle">
+																<img src="/images/products/19.png" alt="">
+															</div>
+															<div class="ms-2">
+																<h6 class="mb-1 font-14">Grey Hand Watch</h6>
+															</div>
+														</div>
+													</a>
 												</td>
+												<td>#149.25</td>
 												<td>22 Jun, 2020</td>
 												<td class=""><span class="badge status-order w-100">Order</span></td>
-												<td>#149.25</td>
 												<td>
 													<div class="dropdown ms-auto order-action">
 														<div class="cursor-pointer dropdown-toggle dropdown-toggle-nocaret text-center" data-bs-toggle="dropdown" aria-expanded="false">
@@ -266,19 +274,22 @@
 												</td>
 											</tr>
 											<tr>
+												<td>#149.25</td>
 												<td>
-												<div class="d-flex align-items-center">
-													<div class="recent-product-img rounded-circle">
-														<img src="/images/products/07.png" alt="">
-													</div>
-													<div class="ms-2">
-														<h6 class="mb-1 font-14">Brown Sofa</h6>
-													</div>
-												</div>
+													<a href="/backend/mutasi/order/12">
+														<div class="d-flex align-items-center">
+															<div class="recent-product-img rounded-circle">
+																<img src="/images/products/07.png" alt="">
+															</div>
+															<div class="ms-2">
+																<h6 class="mb-1 font-14">Brown Sofa</h6>
+															</div>
+														</div>
+													</a>
 												</td>
+												<td>#149.25</td>
 												<td>22 Jun, 2020</td>
 												<td class=""><span class="badge status-kirim w-100">Kirim</span></td>
-												<td>#149.25</td>
 												<td>
 													<div class="dropdown ms-auto order-action">
 														<div class="cursor-pointer dropdown-toggle dropdown-toggle-nocaret text-center" data-bs-toggle="dropdown" aria-expanded="false">
@@ -295,19 +306,22 @@
 												</td>
 											</tr>
 											<tr>
+												<td>#149.25</td>
 												<td>
-												<div class="d-flex align-items-center">
-													<div class="recent-product-img rounded-circle">
-														<img src="/images/products/17.png" alt="">
-													</div>
-													<div class="ms-2">
-														<h6 class="mb-1 font-14">Black iPhone 11</h6>
-													</div>
-												</div>
+													<a href="/backend/mutasi/order/12">
+														<div class="d-flex align-items-center">
+															<div class="recent-product-img rounded-circle">
+																<img src="/images/products/17.png" alt="">
+															</div>
+															<div class="ms-2">
+																<h6 class="mb-1 font-14">Black iPhone 11</h6>
+															</div>
+														</div>
+													</a>
 												</td>
+												<td>#149.25</td>
 												<td>22 Jun, 2020</td>
-												<td class=""><span class="badge status-selesai w-100">Selesai</span></td>
-												<td>#149.25</td>
+												<td class=""><span class="badge status-proses w-100 text-capitalize">proses</span></td>
 												<td>
 													<div class="dropdown ms-auto order-action">
 														<div class="cursor-pointer dropdown-toggle dropdown-toggle-nocaret text-center" data-bs-toggle="dropdown" aria-expanded="false">
@@ -324,19 +338,22 @@
 												</td>
 											</tr>
 											<tr>
+												<td>#149.25</td>
 												<td>
-												<div class="d-flex align-items-center">
-													<div class="recent-product-img rounded-circle">
-														<img src="/images/products/14.png" alt="">
-													</div>
-													<div class="ms-2">
-														<h6 class="mb-1 font-14">Men Yellow T-Shirt</h6>
-													</div>
-												</div>
+													<a href="/backend/mutasi/order/12">
+														<div class="d-flex align-items-center">
+															<div class="recent-product-img rounded-circle">
+																<img src="/images/products/14.png" alt="">
+															</div>
+															<div class="ms-2">
+																<h6 class="mb-1 font-14">Men Yellow T-Shirt</h6>
+															</div>
+														</div>
+													</a>
 												</td>
+												<td>#149.25</td>
 												<td>22 Jun, 2020</td>
 												<td class=""><span class="badge status-proses w-100">Proses</span></td>
-												<td>#149.25</td>
 												<td>
 													<div class="dropdown ms-auto order-action">
 														<div class="cursor-pointer dropdown-toggle dropdown-toggle-nocaret text-center" data-bs-toggle="dropdown" aria-expanded="false">
@@ -353,19 +370,22 @@
 												</td>
 											</tr>
 											<tr>
-												<td>
-												<div class="d-flex align-items-center">
-													<div class="recent-product-img rounded-circle">
-														<img src="/images/products/08.png" alt="">
-													</div>
-													<div class="ms-2">
-														<h6 class="mb-1 font-14">Grey Stand Table</h6>
-													</div>
-												</div>
-												</td>
-												<td>22 Jun, 2020</td>
-												<td class=""><span class="badge status-batal w-100">Batal</span></td>
 												<td>#149.25</td>
+												<td>
+													<a href="/backend/mutasi/order/12">
+														<div class="d-flex align-items-center">
+															<div class="recent-product-img rounded-circle">
+																<img src="/images/products/08.png" alt="">
+															</div>
+															<div class="ms-2">
+																<h6 class="mb-1 font-14">Grey Stand Table</h6>
+															</div>
+														</div>
+													</a>
+												</td>
+												<td>#149.25</td>
+												<td>22 Jun, 2020</td>
+												<td class=""><span class="badge status-kirim w-100 text-capitalize">Batal</span></td>
 												<td>
 													<div class="dropdown ms-auto order-action">
 														<div class="cursor-pointer dropdown-toggle dropdown-toggle-nocaret text-center" data-bs-toggle="dropdown" aria-expanded="false">
@@ -384,7 +404,6 @@
 										</tbody>
 									</table>
 								</div>
-
 								</div>
 							</div>
 						</div>
