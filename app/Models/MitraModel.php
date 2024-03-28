@@ -4,7 +4,7 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class Mitra extends Model
+class MitraModel extends Model
 {
     protected $table            = 'mitra';
     protected $primaryKey       = 'id';
@@ -40,20 +40,20 @@ class Mitra extends Model
     protected $beforeDelete   = [];
     protected $afterDelete    = [];
 
-	public function addMitra($data)
-	{
-		$data['password'] = hash("sha256", $data['password']);
-		$data ['id_upline'] = $this->addUpline($data['referal']);
-		$this->insert($data);
-	} 
+	// public function addMitra($data)
+	// {
+	// 	$data['password'] = hash("sha256", $data['password']);
+	// 	$data ['id_upline'] = $this->addUpline($data['referal']);
+	// 	$this->insert($data);
+	// }
 
 	public function getValid($id) {
 		return isset(($this->select('valid')
 		->where('id', $id)
-		->first())->valid) 
+		->first())->valid)
 		? $this->select('valid')
 		->where('id', $id)
-		->first()->valid 
+		->first()->valid
 		: null;
 	}
 
@@ -82,6 +82,6 @@ class Mitra extends Model
 	private function addUpline($kode_referal) {
 		return $this->select('id')
 		->where('kode_referal', $kode_referal)
-		->first()->id;		
+		->first()->id;
 	}
 }

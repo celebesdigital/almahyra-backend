@@ -9,9 +9,9 @@ class Stok extends BackEndController
 {
     public function index()
     {
-		$mitraModel = new Mitra();
+		// $mitraModel = new Mitra();
 		$data = [
-			"stok" => $mitraModel->getStock()->stok
+			// "stok" => $mitraModel->getStock()->stok
 		];
 
         return view('backend/stok', $data);

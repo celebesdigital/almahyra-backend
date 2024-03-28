@@ -1,19 +1,3 @@
-				<!-- NAVIGATION MENU -->
-				<div class="wsmainfull menu clearfix">
-					<div class="wsmainwp clearfix">
-
-
-						<!-- HEADER BLACK LOGO -->
-						<div class="desktoplogo">
-							<a href="#hero-1" class="logo-black"><img src="/_web/images/logo-pink.png" alt="logo"></a>
-						</div>
-
-						<!-- HEADER WHITE LOGO -->
-						<div class="desktoplogo">
-							<a href="#hero-1" class="logo-white"><img src="/_web/images/logo-white.png" alt="logo"></a>
-						</div>
-
-
 						<!-- MAIN MENU -->
 						<nav class="wsmenu clearfix">
 							<ul class="wsmenu-list nav-pink-400">
@@ -75,19 +59,15 @@
 
 								<!-- SIGN IN LINK -->
 								<li class="nl-simple reg-fst-link mobile-last-link" aria-haspopup="true">
-									<a href="/login" class="h-link">Sign in</a>
+									<a href="/login" class="btn r-04 cc-signin">Masuk</a>
 								</li>
 
 
 								<!-- SIGN UP BUTTON -->
 								<li class="nl-simple" aria-haspopup="true">
-									<a href="/registrasi" class="btn r-04 btn--pink-400 hover--tra-white last-link">Sign up</a>
+									<a href="/registrasi" class="btn r-04 cc-signup">Daftar</a>
 								</li>
 
 
 							</ul>
 						</nav>	<!-- END MAIN MENU -->
-
-
-					</div>
-				</div>	<!-- END NAVIGATION MENU -->

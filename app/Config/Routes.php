@@ -6,7 +6,7 @@ use CodeIgniter\Router\RouteCollection;
  * @var RouteCollection $routes
  */
 
-$routes->group("backend", ["filter" => "authFilter"], function ($routes) {
+$routes->group('backend', function ($routes) { //["filter" => "authFilter"], function ($routes) {
 	$routes->get('', 'BackEnd\Home::index');
 
 	$routes->get('stok', 'BackEnd\Stok::index');
@@ -17,13 +17,13 @@ $routes->group("backend", ["filter" => "authFilter"], function ($routes) {
 
 	$routes->get('mitra-list', 'BackEnd\MitraList::index');
 	$routes->get('mitra-list/registrasi-ao', 'BackEnd\MitraList::registrasiAo');
-});
 
-$routes->group('mutasi', static function ($routes) {
-	$routes->get('', 'BackEnd\Mutasi::index');
-	$routes->get('order', 'BackEnd\Mutasi::order');
-	$routes->get('order/(:num)', 'BackEnd\Mutasi::detail/$1');
-	$routes->match(['get', 'post'], 'jual', 'BackEnd\Mutasi::jual');
+	$routes->group('mutasi', static function ($routes) {
+		$routes->get('', 'BackEnd\Mutasi::index');
+		$routes->get('order/(:num)', 'BackEnd\Mutasi::detail/$1');
+		$routes->match(['get', 'post'], 'order', 'BackEnd\Mutasi::order');
+		$routes->match(['get', 'post'], 'jual', 'BackEnd\Mutasi::jual');
+	});
 });
 
 $routes->get('/', 'FrontEnd\Home::index');

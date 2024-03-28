@@ -4,15 +4,15 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class Mutasi extends Model
+class AkunModel extends Model
 {
-    protected $table            = 'mutasi';
+    protected $table            = 'akuns';
     protected $primaryKey       = 'id';
     protected $useAutoIncrement = true;
-    protected $returnType       = 'object';
+    protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = ['jumlah', 'jenis_mutasi', 'keterangan', 'status'];
+    protected $allowedFields    = [];
 
     protected bool $allowEmptyInserts = false;
 

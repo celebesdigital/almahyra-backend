@@ -14,19 +14,21 @@
 						<div class="col-md-6">
 							<div class="hero-1-txt color--white wow fadeInRight">
 
+								<!-- Text -->
+								<p class="p-xl">PT. Almahyra Makmur Bersama
+								</p>
+
 								<!-- Title -->
-								<h2 class="s-58 w-700">Content is the key to building an audience</h2>
+								<h2 class="s-48 w-800">Herbal Oil Almahyra</h2>
 
 								<!-- Text -->
-								<p class="p-xl">Mauris donec turpis suscipit sapien ociis sagittis sapien tempor a volute
-									ligula and aliquet tortor
+								<p class="p-xl">" Manfaat di Setiap Sentuhan " <br/>
+								Mari gunakan herbal oil almahyra karena menggunakan
+								100% bahan herbal tanpa bahan kimia
 								</p>
 
 								<!-- Button -->
-								<a href="#banner-3" class="btn r-04 btn--pink-400 hover--tra-white">Get started for free</a>
-								<p class="p-sm btn-txt ico-15">
-									<span class="flaticon-check"></span> No credit card needed, free 14-day trial
-								</p>
+								<a href="#banner-3" class="btn r-04 cc-signup">Lihat Produk</a>
 
 							</div>
 						</div>	<!-- END HERO TEXT -->
@@ -35,7 +37,7 @@
 						<!-- HERO IMAGE -->
 						<div class="col-md-6">
 							<div class="hero-1-img wow fadeInLeft">
-								<img class="img-fluid" src="/_web/images/hero-1-img.png" alt="hero-image">
+								<img class="hero-image" src="/_web/images/produk/hero-1.png" alt="hero-image">
 							</div>
 						</div>
 
@@ -44,14 +46,10 @@
 				</div>	   <!-- End container -->
 			</section>	<!-- END HERO-1 -->
 
-
-
-
 			<!-- FEATURES-6
 			============================================= -->
-			<section id="features-6" class="py-100 features-section division">
+			<section id="features-6" class="py-100 features-section division text-light">
 				<div class="container">
-
 
 					<!-- SECTION TITLE -->
 					<div class="row justify-content-center">
@@ -59,10 +57,10 @@
 							<div class="section-title mb-70">
 
 								<!-- Title -->
-								<h2 class="s-50 w-700">Build a customer-centric marketing strategy</h2>
+								<h2 class="s-50 w-700 text-decoration-underline text-light">Keunggulan Kami</h2>
 
 								<!-- Text -->
-								<p class="s-21 color--grey">Ligula risus auctor tempus magna feugiat lacinia.</p>
+								<!-- <p class="s-21 color--grey">Ligula risus auctor tempus magna feugiat lacinia.</p> -->
 
 							</div>
 						</div>
@@ -71,7 +69,7 @@
 
 					<!-- FEATURES-6 WRAPPER -->
 					<div class="fbox-wrapper text-center">
-						<div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+						<div class="row row-cols-2 row-cols-lg-4">
 
 
 							<!-- FEATURE BOX #1 -->
@@ -83,20 +81,16 @@
 										<div class="shape-ico">
 
 											<!-- Vector Icon -->
-											<span class="flaticon-graphics color--pink-400"></span>
-
-											<!-- Shape -->
-											<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-											<path fill="#feecf2" d="M69.8,-23C76.3,-2.7,57.6,25.4,32.9,42.8C8.1,60.3,-22.7,67,-39.1,54.8C-55.5,42.7,-57.5,11.7,-48.6,-11.9C-39.7,-35.5,-19.8,-51.7,5.9,-53.6C31.7,-55.6,63.3,-43.2,69.8,-23Z" transform="translate(100 100)" />
-											</svg>
+											<!-- <span class="flaticon-graphics color-primary"></span> -->
+											<i class="fas fa-leaf"></i>
 
 										</div>
 									</div>	<!-- End Icon -->
 
 									<!-- Text -->
 									<div class="fbox-txt">
-										<h6 class="s-20 w-700">Market Research</h6>
-										<p>Luctus augue egestas undo ultrice and quisque lacus</p>
+										<h6 class="s-20 w-700">Bahan Baku Berkualitas</h6>
+										<!-- <p>Luctus augue egestas undo ultrice and quisque lacus</p> -->
 									</div>
 
 								</div>
@@ -112,20 +106,21 @@
 										<div class="shape-ico">
 
 											<!-- Vector Icon -->
-											<span class="flaticon-idea color--pink-400"></span>
+											<!-- <span class="flaticon-idea color-primary"></span> -->
+											<i class="fas fa-user-plus"></i>
 
 											<!-- Shape -->
-											<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-											<path fill="#feecf2" d="M69.8,-23C76.3,-2.7,57.6,25.4,32.9,42.8C8.1,60.3,-22.7,67,-39.1,54.8C-55.5,42.7,-57.5,11.7,-48.6,-11.9C-39.7,-35.5,-19.8,-51.7,5.9,-53.6C31.7,-55.6,63.3,-43.2,69.8,-23Z" transform="translate(100 100)" />
-											</svg>
+											<!-- <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+											<path fill="var(--green-light-1)" d="M69.8,-23C76.3,-2.7,57.6,25.4,32.9,42.8C8.1,60.3,-22.7,67,-39.1,54.8C-55.5,42.7,-57.5,11.7,-48.6,-11.9C-39.7,-35.5,-19.8,-51.7,5.9,-53.6C31.7,-55.6,63.3,-43.2,69.8,-23Z" transform="translate(100 100)" />
+											</svg> -->
 
 										</div>
 									</div>	<!-- End Icon -->
 
 									<!-- Text -->
 									<div class="fbox-txt">
-										<h6 class="s-20 w-700">User Experience</h6>
-										<p>Luctus augue egestas undo ultrice and quisque lacus</p>
+										<h6 class="s-20 w-700">Dikerjakan Oleh Tenaga Ahli</h6>
+										<!-- <p>Luctus augue egestas undo ultrice and quisque lacus</p> -->
 									</div>
 
 								</div>
@@ -141,20 +136,21 @@
 										<div class="shape-ico">
 
 											<!-- Vector Icon -->
-											<span class="flaticon-graphic color--pink-400"></span>
+											<!-- <span class="flaticon-graphic color-primary"></span> -->
+											<i class="fas fa-fire-alt"></i>
 
 											<!-- Shape -->
-											<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-											<path fill="#feecf2" d="M69.8,-23C76.3,-2.7,57.6,25.4,32.9,42.8C8.1,60.3,-22.7,67,-39.1,54.8C-55.5,42.7,-57.5,11.7,-48.6,-11.9C-39.7,-35.5,-19.8,-51.7,5.9,-53.6C31.7,-55.6,63.3,-43.2,69.8,-23Z" transform="translate(100 100)" />
-											</svg>
+											<!-- <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+											<path fill="var(--green-light-1)" d="M69.8,-23C76.3,-2.7,57.6,25.4,32.9,42.8C8.1,60.3,-22.7,67,-39.1,54.8C-55.5,42.7,-57.5,11.7,-48.6,-11.9C-39.7,-35.5,-19.8,-51.7,5.9,-53.6C31.7,-55.6,63.3,-43.2,69.8,-23Z" transform="translate(100 100)" />
+											</svg> -->
 
 										</div>
 									</div>	<!-- End Icon -->
 
 									<!-- Text -->
 									<div class="fbox-txt">
-										<h6 class="s-20 w-700">Digital Marketing</h6>
-										<p>Luctus augue egestas undo ultrice and quisque lacus</p>
+										<h6 class="s-20 w-700">Mesin Canggih Dan Modern</h6>
+										<!-- <p>Luctus augue egestas undo ultrice and quisque lacus</p> -->
 									</div>
 
 								</div>
@@ -170,20 +166,21 @@
 										<div class="shape-ico">
 
 											<!-- Vector Icon -->
-											<span class="flaticon-search-engine-1 color--pink-400"></span>
+											<!-- <span class="flaticon-search-engine-1 color-primary"></span> -->
+											<i class="fas fa-check-circle"></i>
 
 											<!-- Shape -->
-											<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-											<path fill="#feecf2" d="M69.8,-23C76.3,-2.7,57.6,25.4,32.9,42.8C8.1,60.3,-22.7,67,-39.1,54.8C-55.5,42.7,-57.5,11.7,-48.6,-11.9C-39.7,-35.5,-19.8,-51.7,5.9,-53.6C31.7,-55.6,63.3,-43.2,69.8,-23Z" transform="translate(100 100)" />
-											</svg>
+											<!-- <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+											<path fill="var(--green-light-1)" d="M69.8,-23C76.3,-2.7,57.6,25.4,32.9,42.8C8.1,60.3,-22.7,67,-39.1,54.8C-55.5,42.7,-57.5,11.7,-48.6,-11.9C-39.7,-35.5,-19.8,-51.7,5.9,-53.6C31.7,-55.6,63.3,-43.2,69.8,-23Z" transform="translate(100 100)" />
+											</svg> -->
 
 										</div>
 									</div>	<!-- End Icon -->
 
 									<!-- Text -->
 									<div class="fbox-txt">
-										<h6 class="s-20 w-700">SEO Services</h6>
-										<p>Luctus augue egestas undo ultrice and quisque lacus</p>
+										<h6 class="s-20 w-700">Badan Usaha Tersertifikasi</h6>
+										<!-- <p>Luctus augue egestas undo ultrice and quisque lacus</p> -->
 									</div>
 
 								</div>
@@ -201,14 +198,17 @@
 
 
 			<!-- DIVIDER LINE -->
-			<hr class="divider">
+			<!-- <hr class="divider"> -->
 
 
 
 
 			<!-- TEXT CONTENT
 			============================================= -->
-			<section id="lnk-1" class="pt-100 ct-02 content-section division">
+			<svg class="cc-connector" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+				<path class="elementor-shape-fill" d="M421.9,6.5c22.6-2.5,51.5,0.4,75.5,5.3c23.6,4.9,70.9,23.5,100.5,35.7c75.8,32.2,133.7,44.5,192.6,49.7c23.6,2.1,48.7,3.5,103.4-2.5c54.7-6,106.2-25.6,106.2-25.6V0H0v30.3c0,0,72,32.6,158.4,30.5c39.2-0.7,92.8-6.7,134-22.4c21.2-8.1,52.2-18.2,79.7-24.2C399.3,7.9,411.6,7.5,421.9,6.5z"></path>
+			</svg>
+			<section id="lnk-1" class="pb-100 ct-02 content-section division">
 				<div class="container">
 
 
@@ -219,7 +219,7 @@
 						<!-- IMAGE BLOCK -->
 						<div class="col-md-6">
 							<div class="img-block left-column wow fadeInRight">
-								<img class="img-fluid" src="/_web/images/img-10.png" alt="content-image">
+								<img class="img-fluid" src="/_web/images/produk/hoa-10.jpg" alt="content-image">
 							</div>
 						</div>
 
@@ -229,21 +229,29 @@
 							<div class="txt-block right-column wow fadeInLeft">
 
 								<!-- Section ID -->
-								<span class="section-id">Enhance Engagement</span>
+								<span class="section-id">Penjelasan singkat Produk kami :</span>
 
 								<!-- Title -->
-								<h2 class="s-46 w-700">Engage your most valuable visitors</h2>
+								<h2 class="s-46 w-700">Herbal Oil Almahyra</h2>
 
 								<!-- Text -->
-								<p>Sodales tempor sapien quaerat ipsum undo congue laoreet turpis neque auctor turpis
-									vitae dolor luctus placerat magna and ligula cursus purus vitae purus an ipsum suscipit
+								<p>Herbal oil almahyra ini adalah minyak herbal yang sangat bermanfaat untuk kesehatan tubuh dari luar maupun dalam karna <strong> 100% bahan Herbal Alami.</strong>
 								</p>
 
+								<!-- Text -->
+								<p>Herbal oil almahyra ini juga sudah terdaftar di <strong> BPOM </strong> dan insyaAllah aman untuk di gunakan di <strong>segala usia</strong>.
+								</p>
+
+								<!-- cta -->
+								<a href="/produk" class="btn btn-sm r-04 cc-btn-outline-primary">
+									Detail Produk
+								</a>
+
 								<!-- Small Title -->
-								<h5 class="s-24 w-700">Digits that define growth</h5>
+								<!-- <h5 class="s-24 w-700">Digits that define growth</h5> -->
 
 								<!-- List -->
-								<ul class="simple-list">
+								<!-- <ul class="simple-list">
 
 									<li class="list-item">
 										<p>Sapien quaerat tempor an ipsum laoreet purus and sapien dolor an ultrice ipsum
@@ -257,175 +265,74 @@
 										</p>
 									</li>
 
-								</ul>
+								</ul> -->
 
 							</div>
 						</div>	<!-- END TEXT BLOCK -->
 
 
 					</div>	<!-- END SECTION CONTENT (ROW) -->
-
-
 				</div>	   <!-- End container -->
 			</section>	<!-- END TEXT CONTENT -->
 
 
 
 
-			<!-- TEXT CONTENT
+
+			<!-- IMAGE CONTENT
 			============================================= -->
-			<section class="pt-100 ct-01 content-section division">
-				<div class="container">
+			<section id="lnk-3" class="bg--04 ct-10 content-section division">
+				<svg class="cc-connector second" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+					<path class="elementor-shape-fill" d="M421.9,6.5c22.6-2.5,51.5,0.4,75.5,5.3c23.6,4.9,70.9,23.5,100.5,35.7c75.8,32.2,133.7,44.5,192.6,49.7c23.6,2.1,48.7,3.5,103.4-2.5c54.7-6,106.2-25.6,106.2-25.6V0H0v30.3c0,0,72,32.6,158.4,30.5c39.2-0.7,92.8-6.7,134-22.4c21.2-8.1,52.2-18.2,79.7-24.2C399.3,7.9,411.6,7.5,421.9,6.5z" style="fill: var(--cc-color-white)"></path>
+				</svg>
+
+				<div class="section-overlay bg-primary">
+					<div class="container">
 
 
-					<!-- SECTION CONTENT (ROW) -->
-					<div class="row d-flex align-items-center">
-
-
-						<!-- TEXT BLOCK -->
-						<div class="col-md-6 order-last order-md-2">
-							<div class="txt-block left-column wow fadeInRight">
-
-
-								<!-- TEXT BOX -->
-								<div class="txt-box">
+						<!-- SECTION TITLE -->
+						<div class="row justify-content-center">
+							<div class="col-md-10 col-lg-9">
+								<div class="section-title mb-70">
 
 									<!-- Title -->
-									<h5 class="s-24 w-700">Solution that grows with you</h5>
+									<h2 class="s-50 w-700 text-light wow fadeInUp">Herbal Oil Almahyra</h2>
 
 									<!-- Text -->
-									<p>Sodales tempor sapien quaerat ipsum undo congue laoreet turpis neque auctor turpis
-									vitae dolor luctus placerat magna and ligula cursus purus vitae purus an ipsum suscipit
-									</p>
+									<!-- <p class="s-21">Ligula risus auctor tempus magna feugiat lacinia.</p> -->
 
-								</div>	<!-- END TEXT BOX -->
-
-
-								<!-- TEXT BOX -->
-								<div class="txt-box mb-0">
-
-									<!-- Title -->
-									<h5 class="s-24 w-700">Connect your data sources</h5>
-
-									<!-- Text -->
-									<p>Tempor sapien sodales quaerat ipsum undo congue laoreet turpis neque auctor turpis
-										vitae dolor luctus placerat magna and ligula cursus purus an ipsum vitae suscipit
-										purus
-									</p>
-
-									<!-- List -->
-									<ul class="simple-list">
-
-										<li class="list-item">
-											<p>Tempor sapien quaerat an ipsum laoreet purus and sapien dolor an ultrice ipsum
-											aliquam undo congue dolor cursus
-											</p>
-										</li>
-
-										<li class="list-item">
-											<p class="mb-0">Cursus purus suscipit vitae cubilia magnis volute egestas vitae
-											sapien turpis ultrice auctor congue magna placerat
-											</p>
-										</li>
-
-									</ul>
-
-								</div>	<!-- END TEXT BOX -->
-
-
+								</div>
 							</div>
-						</div>	<!-- END TEXT BLOCK -->
+						</div>
 
 
 						<!-- IMAGE BLOCK -->
-						<div class="col-md-6 order-first order-md-2">
-							<div class="img-block right-column wow fadeInLeft">
-								<img class="img-fluid" src="/_web/images/img-06.png" alt="content-image">
+						<div class="row">
+							<div class="col">
+								<div class="img-block video-preview wow fadeInUp">
+									<div class="rounded overflow-hidden">
+
+										<!-- Play Icon -->
+										<!-- <a class="video-popup2" href="https://www.youtube.com/watch?v=7e90gBu4pas">
+											<div class="video-btn video-btn-xl bg--pink-400">
+												<div class="video-block-wrapper"><span class="flaticon-play-button"></span></div>
+											</div>
+										</a> -->
+
+										<!-- Preview Image -->
+										<!-- <img class="img-fluid" src="/_web/images/dashboard-01.png" alt="video-preview"> -->
+
+										<iframe id="profile-produk" src="https://www.youtube.com/embed/0_Y6g0A83Ss" title="APA ITU HERBAL OIL ALMAHYRA ??" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+									</div>
+								</div>
 							</div>
 						</div>
 
 
-					</div>	<!-- END SECTION CONTENT (ROW) -->
-
-
-				</div>	   <!-- End container -->
-			</section>	<!-- END TEXT CONTENT -->
-
-
-
-
-			<!-- FEATURES-5
-			============================================= -->
-			<section id="features-5" class="pt-100 features-section division">
-				<div class="container">
-
-
-					<!-- SECTION TITLE -->
-					<div class="row justify-content-center">
-						<div class="col-md-10 col-lg-9">
-							<div class="section-title mb-70">
-
-								<!-- Title -->
-								<h2 class="s-50 w-700">Reach your audience through social media marketing</h2>
-
-								<!-- Text -->
-								<p class="s-21 color--grey">Ligula risus auctor tempus magna feugiat lacinia.</p>
-
-							</div>
-						</div>
-					</div>
-
-
-					<!-- FEATURES-5 WRAPPER -->
-					<div class="fbox-wrapper text-center">
-						<div class="row d-flex align-items-center">
-
-
-							<!-- FEATURE BOX #1 -->
-							<div class="col-md-6">
-								<div class="fbox-5 fb-1 bg--white-400 r-16 wow fadeInUp">
-
-									<!-- Text -->
-									<div class="fbox-txt order-last order-md-2">
-										<h5 class="s-26 w-700">Marketing Integrations</h5>
-										<p>Aliquam a augue suscipit luctus diam neque purus ipsum neque and dolor primis libero</p>
-									</div>
-
-									<!-- Image -->
-									<div class="fbox-5-img order-first order-md-2">
-										<img class="img-fluid" src=".//_web/images/f_06.png" alt="feature-image">
-									</div>
-
-								</div>
-							</div>	<!-- END FEATURE BOX #1 -->
-
-
-							<!-- FEATURE BOX #2 -->
-							<div class="col-md-6">
-								<div class="fbox-5 fb-2 bg--white-400 r-16 wow fadeInUp">
-
-									<!-- Image -->
-									<div class="fbox-5-img">
-										<img class="img-fluid" src=".//_web/images/f_04.png" alt="feature-image">
-									</div>
-
-									<!-- Text -->
-									<div class="fbox-txt">
-										<h5 class="s-26 w-700">Enhance Engagement</h5>
-										<p>Aliquam a augue suscipit luctus diam neque purus ipsum neque and dolor primis libero</p>
-									</div>
-
-								</div>
-							</div>	<!-- END FEATURE BOX #2 -->
-
-
-						</div>  <!-- End row -->
-					</div>	<!-- END FEATURES-5 WRAPPER -->
-
-
-				</div>     <!-- End container -->
-			</section>	<!-- END FEATURES-5 -->
-
+					</div>	   <!-- End container -->
+				</div>     <!-- End section overlay -->
+			</section>	<!-- END IMAGE CONTENT -->
 
 
 
@@ -437,22 +344,18 @@
 
 					<!-- STATISTIC-1 WRAPPER -->
 					<div class="statistic-1-wrapper">
-						<div class="row justify-content-md-center row-cols-1 row-cols-md-3">
+						<div class="d-flex justify-content-md-center flex-column flex-md-row cc-statistic">
 
 
 							<!-- STATISTIC BLOCK #1 -->
-							<div class="col">
+							<div class="segment">
 								<div id="sb-1-1" class="wow fadeInUp">
 									<div class="statistic-block">
 
 										<!-- Digit -->
 										<div class="statistic-block-digit text-center">
-											<h2 class="s-46 statistic-number"><span class="count-element">89</span>k</h2>
-										</div>
-
-										<!-- Text -->
-										<div class="statistic-block-txt color--grey">
-											<p class="p-md">Porta justo integer and velna vitae auctor</p>
+											<h2 class="s-62 statistic-number"><span class="count-element">100</span></h2>
+											<p class="p-md">Mitra</p>
 										</div>
 
 									</div>
@@ -461,18 +364,21 @@
 
 
 							<!-- STATISTIC BLOCK #2 -->
-							<div class="col">
+							<div class="segment">
 								<div id="sb-1-2" class="wow fadeInUp">
 									<div class="statistic-block">
 
 										<!-- Digit -->
-										<div class="statistic-block-digit text-center">
-											<h2 class="s-46 statistic-number"><span class="count-element">76</span>%</h2>
-										</div>
-
-										<!-- Text -->
-										<div class="statistic-block-txt color--grey">
-											<p class="p-md">Ligula magna suscipit vitae and rutrum</p>
+										<div class="statistic-block-digit text-center pt-4">
+											<div class="d-flex justify-content-center color-gold mb-2">
+												<span class="flaticon-star"></span>
+												<span class="flaticon-star"></span>
+												<span class="flaticon-star"></span>
+												<span class="flaticon-star"></span>
+												<span class="flaticon-star-half-empty"></span>
+											</div>
+											<h2 class="s-62 statistic-number"><span class="count-element">76</span>/100</h2>
+											<p class="p-md">Kepuasan Mitra</p>
 										</div>
 
 									</div>
@@ -481,20 +387,16 @@
 
 
 							<!-- STATISTIC BLOCK #3 -->
-							<div class="col">
+							<div class="segment">
 								<div id="sb-1-3" class="wow fadeInUp">
 									<div class="statistic-block">
 
 										<!-- Digit -->
 										<div class="statistic-block-digit text-center">
-											<h2 class="s-46 statistic-number">
-												<span class="count-element">4</span>.<span class="count-element">93</span>
+											<h2 class="s-62 statistic-number">
+												<span class="count-element">25</span>,<span class="count-element">675</span>
 											</h2>
-										</div>
-
-										<!-- Text -->
-										<div class="statistic-block-txt color--grey">
-											<p class="p-md">Sagittis congue augue egestas an egestas</p>
+											<p class="p-md">Product Terjual</p>
 										</div>
 
 									</div>
@@ -514,6 +416,333 @@
 
 			<!-- DIVIDER LINE -->
 			<hr class="divider">
+
+
+
+
+			<!-- TESTIMONIALS-1
+			============================================= -->
+			<section id="reviews-1" class="pt-100 shape--06 shape--gr-whitesmoke reviews-section">
+				<div class="container">
+
+
+					<!-- SECTION TITLE -->
+					<div class="row justify-content-center">
+						<div class="col-md-10 col-lg-9">
+							<div class="section-title mb-70">
+
+								<!-- Title -->
+								<h2 class="s-50 w-700 text-decoration-underline">Testimoni Konsumen</h2>
+
+								<!-- Text -->
+								<!-- <p class="s-21 color--grey">Beberapa testimoni  </p> -->
+
+							</div>
+						</div>
+					</div>
+
+
+					<!-- TESTIMONIALS CONTENT -->
+					<div class="row">
+						<div class="col">
+							<div class="owl-carousel owl-theme reviews-1-wrapper">
+
+
+								<!-- TESTIMONIAL #1 -->
+								<div class="review-1 bg--white-100 block-shadow r-08">
+
+									<!-- Quote Icon -->
+									<div class="review-ico ico-65"><span class="flaticon-quote"></span></div>
+
+									<!-- Text -->
+									<div class="review-txt">
+
+										<!-- Text -->
+										<p>Etiam sapien sagittis congue augue a massa varius egestas ultrice varius magna
+										a tempus aliquet undo cursus suscipit
+										</p>
+
+										<!-- Author -->
+										<div class="author-data clearfix">
+
+											<!-- Avatar -->
+											<div class="review-avatar">
+												<img src="/_web/images/review-author-1.jpg" alt="review-avatar">
+											</div>
+
+											<!-- Data -->
+											<div class="review-author">
+												<h6 class="s-18 w-700">Scott Boxer</h6>
+												<p class="p-sm">@scott_boxer</p>
+											</div>
+
+										</div>	<!-- End Author -->
+
+									</div>	<!-- End Text -->
+
+								</div>	<!-- END TESTIMONIAL #1 -->
+
+
+								<!-- TESTIMONIAL #2 -->
+								<div class="review-1 bg--white-100 block-shadow r-08">
+
+									<!-- Quote Icon -->
+									<div class="review-ico ico-65"><span class="flaticon-quote"></span></div>
+
+									<!-- Text -->
+									<div class="review-txt">
+
+										<!-- Text -->
+										<p>At sagittis congue augue diam egestas magna an ipsum vitae purus ipsum primis
+										and cubilia laoreet augue egestas a luctus donec ltrice ligula porta augue magna
+										suscipit lectus gestas
+										</p>
+
+										<!-- Author -->
+										<div class="author-data clearfix">
+
+											<!-- Avatar -->
+											<div class="review-avatar">
+												<img src="/_web/images/review-author-2.jpg" alt="review-avatar">
+											</div>
+
+											<!-- Data -->
+											<div class="review-author">
+												<h6 class="s-18 w-700">Joel Peterson</h6>
+												<p class="p-sm">Internet Surfer</p>
+											</div>
+
+										</div>	<!-- End Author -->
+
+									</div>	<!-- End Text -->
+
+								</div>	<!-- END TESTIMONIAL #2 -->
+
+
+								<!-- TESTIMONIAL #3 -->
+								<div class="review-1 bg--white-100 block-shadow r-08">
+
+									<!-- Quote Icon -->
+									<div class="review-ico ico-65"><span class="flaticon-quote"></span></div>
+
+									<!-- Text -->
+									<div class="review-txt">
+
+										<!-- Text -->
+										<p>Mauris gestas magnis a sapien etiam sapien congue an augue egestas and ultrice
+										vitae purus diam an integer congue magna ligula egestas magna suscipit
+										</p>
+
+										<!-- Author -->
+										<div class="author-data clearfix">
+
+											<!-- Avatar -->
+											<div class="review-avatar">
+												<img src="/_web/images/review-author-3.jpg" alt="review-avatar">
+											</div>
+
+											<!-- Data -->
+											<div class="review-author">
+												<h6 class="s-18 w-700">Marisol19</h6>
+												<p class="p-sm">@marisol19</p>
+											</div>
+
+										</div>	<!-- End Author -->
+
+									</div>	<!-- End Text -->
+
+								</div>	<!-- END TESTIMONIAL #3 -->
+
+
+								<!-- TESTIMONIAL #4 -->
+								<div class="review-1 bg--white-100 block-shadow r-08">
+
+									<!-- Quote Icon -->
+									<div class="review-ico ico-65"><span class="flaticon-quote"></span></div>
+
+									<!-- Text -->
+									<div class="review-txt">
+
+										<!-- Text -->
+										<p>Mauris donec a magnis sapien etiam pretium a congue augue volutpat lectus
+										aenean magna and undo mauris lectus laoreet tempor egestas rutrum
+										</p>
+
+										<!-- Author -->
+										<div class="author-data clearfix">
+
+											<!-- Avatar -->
+											<div class="review-avatar">
+												<img src="/_web/images/review-author-4.jpg" alt="review-avatar">
+											</div>
+
+											<!-- Data -->
+											<div class="review-author">
+												<h6 class="s-18 w-700">Leslie D.</h6>
+												<p class="p-sm">Web Developer</p>
+											</div>
+
+										</div>	<!-- End Author -->
+
+									</div>	<!-- End Text -->
+
+								</div>	<!-- END TESTIMONIAL #4 -->
+
+
+								<!-- TESTIMONIAL #5 -->
+								<div class="review-1 bg--white-100 block-shadow r-08">
+
+									<!-- Quote Icon -->
+									<div class="review-ico ico-65"><span class="flaticon-quote"></span></div>
+
+									<!-- Text -->
+									<div class="review-txt">
+
+										<!-- Text -->
+										<p>An augue cubilia undo laoreet magna suscipit egestas ipsum lectus purus ipsum
+										and primis augue an ultrice ligula egestas suscipit a lectus gestas auctor tempus
+										feugiat impedit
+										</p>
+
+										<!-- Author -->
+										<div class="author-data clearfix">
+
+											<!-- Avatar -->
+											<div class="review-avatar">
+												<img src="/_web/images/review-author-5.jpg" alt="review-avatar">
+											</div>
+
+											<!-- Data -->
+											<div class="review-author">
+												<h6 class="s-18 w-700">Jennifer Harper</h6>
+												<p class="p-sm">App Developer</p>
+											</div>
+
+										</div>	<!-- End Author -->
+
+									</div>	<!-- End Text -->
+
+								</div>	<!-- END TESTIMONIAL #5 -->
+
+
+								<!-- TESTIMONIAL #6 -->
+								<div class="review-1 bg--white-100 block-shadow r-08">
+
+									<!-- Quote Icon -->
+									<div class="review-ico ico-65"><span class="flaticon-quote"></span></div>
+
+									<!-- Text -->
+									<div class="review-txt">
+
+										<!-- Text -->
+										<p>An augue cubilia laoreet undo magna ipsum semper suscipit egestas magna ipsum
+										ligula a vitae purus and ipsum primis cubilia magna suscipit
+										</p>
+
+										<!-- Author -->
+										<div class="author-data clearfix">
+
+											<!-- Avatar -->
+											<div class="review-avatar">
+												<img src="/_web/images/review-author-6.jpg" alt="review-avatar">
+											</div>
+
+											<!-- Data -->
+											<div class="review-author">
+												<h6 class="s-18 w-700">Jonathan Barnes</h6>
+												<p class="p-sm">jQuery Programmer</p>
+											</div>
+
+										</div>	<!-- End Author -->
+
+									</div>	<!-- End Text -->
+
+								</div>	<!-- END TESTIMONIAL #6 -->
+
+
+								<!-- TESTIMONIAL #7 -->
+								<div class="review-1 bg--white-100 block-shadow r-08">
+
+									<!-- Quote Icon -->
+									<div class="review-ico ico-65"><span class="flaticon-quote"></span></div>
+
+									<!-- Text -->
+									<div class="review-txt">
+
+										<!-- Text -->
+										<p>Augue egestas porta tempus volutpat egestas augue cubilia laoreet a magna
+										suscipit luctus dolor blandit vitae purus neque tempus an aliquet porta gestas
+										rutrum blandit vitae
+										</p>
+
+										<!-- Author -->
+										<div class="author-data clearfix">
+
+											<!-- Avatar -->
+											<div class="review-avatar">
+												<img src="/_web/images/review-author-7.jpg" alt="review-avatar">
+											</div>
+
+											<!-- Data -->
+											<div class="review-author">
+												<h6 class="s-18 w-700">Mike Harris</h6>
+												<p class="p-sm">Graphic Designer</p>
+											</div>
+
+										</div>	<!-- End Author -->
+
+									</div>	<!-- End Text -->
+
+								</div>	<!-- END TESTIMONIAL #7 -->
+
+
+								<!-- TESTIMONIAL #8 -->
+								<div class="review-1 bg--white-100 block-shadow r-08">
+
+									<!-- Quote Icon -->
+									<div class="review-ico ico-65"><span class="flaticon-quote"></span></div>
+
+									<!-- Text -->
+									<div class="review-txt">
+
+										<!-- Text -->
+										<p>Augue at vitae purus tempus egestas volutpat augue undo cubilia laoreet magna
+										suscipit luctus dolor blandit at purus tempus feugiat impedit
+										</p>
+
+										<!-- Author -->
+										<div class="author-data clearfix">
+
+											<!-- Avatar -->
+											<div class="review-avatar">
+												<img src="/_web/images/review-author-8.jpg" alt="review-avatar">
+											</div>
+
+											<!-- Data -->
+											<div class="review-author">
+												<h6 class="s-18 w-700">Evelyn Martinez</h6>
+												<p class="p-sm">WordPress Consultant</p>
+											</div>
+
+										</div>	<!-- End Author -->
+
+									</div>	<!-- End Text -->
+
+								</div>	<!-- END TESTIMONIAL #8 -->
+
+
+							</div>
+						</div>
+					</div>	<!-- END TESTIMONIALS CONTENT -->
+
+
+				</div>	   <!-- End container -->
+			</section>	<!-- END TESTIMONIALS-1 -->
+
+			<!-- DIVIDER LINE -->
+			<hr class="divider">
+
+
 
 
 
@@ -857,57 +1086,6 @@
 
 				</div>	   <!-- End container -->
 			</section>	<!-- END TEXT CONTENT -->
-
-
-
-
-			<!-- IMAGE CONTENT
-			============================================= -->
-			<section id="lnk-3" class="bg--04 ct-10 content-section division">
-				<div class="section-overlay pt-100">
-					<div class="container">
-
-
-						<!-- SECTION TITLE -->
-						<div class="row justify-content-center">
-							<div class="col-md-10 col-lg-9">
-								<div class="section-title mb-70">
-
-									<!-- Title -->
-									<h2 class="s-50 w-700">Track the progress towards objectives with key results</h2>
-
-									<!-- Text -->
-									<p class="s-21">Ligula risus auctor tempus magna feugiat lacinia.</p>
-
-								</div>
-							</div>
-						</div>
-
-
-						<!-- IMAGE BLOCK -->
-						<div class="row">
-							<div class="col">
-								<div class="img-block video-preview wow fadeInUp">
-
-									<!-- Play Icon -->
-									<a class="video-popup2" href="https://www.youtube.com/watch?v=7e90gBu4pas">
-										<div class="video-btn video-btn-xl bg--pink-400">
-											<div class="video-block-wrapper"><span class="flaticon-play-button"></span></div>
-										</div>
-									</a>
-
-									<!-- Preview Image -->
-									<img class="img-fluid" src="/_web/images/dashboard-01.png" alt="video-preview">
-
-								</div>
-							</div>
-						</div>
-
-
-					</div>	   <!-- End container -->
-				</div>     <!-- End section overlay -->
-			</section>	<!-- END IMAGE CONTENT -->
-
 
 
 
@@ -1349,325 +1527,6 @@
 
 
 
-			<!-- TESTIMONIALS-1
-			============================================= -->
-			<section id="reviews-1" class="pt-100 shape--06 shape--gr-whitesmoke reviews-section">
-				<div class="container">
-
-
-					<!-- SECTION TITLE -->
-					<div class="row justify-content-center">
-						<div class="col-md-10 col-lg-9">
-							<div class="section-title mb-70">
-
-								<!-- Title -->
-								<h2 class="s-50 w-700">Here’s what our amazing clients are saying</h2>
-
-								<!-- Text -->
-								<p class="s-21 color--grey">Ligula risus auctor tempus magna feugiat lacinia.</p>
-
-							</div>
-						</div>
-					</div>
-
-
-					<!-- TESTIMONIALS CONTENT -->
-					<div class="row">
-						<div class="col">
-							<div class="owl-carousel owl-theme reviews-1-wrapper">
-
-
-								<!-- TESTIMONIAL #1 -->
-								<div class="review-1 bg--white-100 block-shadow r-08">
-
-									<!-- Quote Icon -->
-									<div class="review-ico ico-65"><span class="flaticon-quote"></span></div>
-
-									<!-- Text -->
-									<div class="review-txt">
-
-										<!-- Text -->
-										<p>Etiam sapien sagittis congue augue a massa varius egestas ultrice varius magna
-										a tempus aliquet undo cursus suscipit
-										</p>
-
-										<!-- Author -->
-										<div class="author-data clearfix">
-
-											<!-- Avatar -->
-											<div class="review-avatar">
-												<img src="/_web/images/review-author-1.jpg" alt="review-avatar">
-											</div>
-
-											<!-- Data -->
-											<div class="review-author">
-												<h6 class="s-18 w-700">Scott Boxer</h6>
-												<p class="p-sm">@scott_boxer</p>
-											</div>
-
-										</div>	<!-- End Author -->
-
-									</div>	<!-- End Text -->
-
-								</div>	<!-- END TESTIMONIAL #1 -->
-
-
-								<!-- TESTIMONIAL #2 -->
-								<div class="review-1 bg--white-100 block-shadow r-08">
-
-									<!-- Quote Icon -->
-									<div class="review-ico ico-65"><span class="flaticon-quote"></span></div>
-
-									<!-- Text -->
-									<div class="review-txt">
-
-										<!-- Text -->
-										<p>At sagittis congue augue diam egestas magna an ipsum vitae purus ipsum primis
-										and cubilia laoreet augue egestas a luctus donec ltrice ligula porta augue magna
-										suscipit lectus gestas
-										</p>
-
-										<!-- Author -->
-										<div class="author-data clearfix">
-
-											<!-- Avatar -->
-											<div class="review-avatar">
-												<img src="/_web/images/review-author-2.jpg" alt="review-avatar">
-											</div>
-
-											<!-- Data -->
-											<div class="review-author">
-												<h6 class="s-18 w-700">Joel Peterson</h6>
-												<p class="p-sm">Internet Surfer</p>
-											</div>
-
-										</div>	<!-- End Author -->
-
-									</div>	<!-- End Text -->
-
-								</div>	<!-- END TESTIMONIAL #2 -->
-
-
-								<!-- TESTIMONIAL #3 -->
-								<div class="review-1 bg--white-100 block-shadow r-08">
-
-									<!-- Quote Icon -->
-									<div class="review-ico ico-65"><span class="flaticon-quote"></span></div>
-
-									<!-- Text -->
-									<div class="review-txt">
-
-										<!-- Text -->
-										<p>Mauris gestas magnis a sapien etiam sapien congue an augue egestas and ultrice
-										vitae purus diam an integer congue magna ligula egestas magna suscipit
-										</p>
-
-										<!-- Author -->
-										<div class="author-data clearfix">
-
-											<!-- Avatar -->
-											<div class="review-avatar">
-												<img src="/_web/images/review-author-3.jpg" alt="review-avatar">
-											</div>
-
-											<!-- Data -->
-											<div class="review-author">
-												<h6 class="s-18 w-700">Marisol19</h6>
-												<p class="p-sm">@marisol19</p>
-											</div>
-
-										</div>	<!-- End Author -->
-
-									</div>	<!-- End Text -->
-
-								</div>	<!-- END TESTIMONIAL #3 -->
-
-
-								<!-- TESTIMONIAL #4 -->
-								<div class="review-1 bg--white-100 block-shadow r-08">
-
-									<!-- Quote Icon -->
-									<div class="review-ico ico-65"><span class="flaticon-quote"></span></div>
-
-									<!-- Text -->
-									<div class="review-txt">
-
-										<!-- Text -->
-										<p>Mauris donec a magnis sapien etiam pretium a congue augue volutpat lectus
-										aenean magna and undo mauris lectus laoreet tempor egestas rutrum
-										</p>
-
-										<!-- Author -->
-										<div class="author-data clearfix">
-
-											<!-- Avatar -->
-											<div class="review-avatar">
-												<img src="/_web/images/review-author-4.jpg" alt="review-avatar">
-											</div>
-
-											<!-- Data -->
-											<div class="review-author">
-												<h6 class="s-18 w-700">Leslie D.</h6>
-												<p class="p-sm">Web Developer</p>
-											</div>
-
-										</div>	<!-- End Author -->
-
-									</div>	<!-- End Text -->
-
-								</div>	<!-- END TESTIMONIAL #4 -->
-
-
-								<!-- TESTIMONIAL #5 -->
-								<div class="review-1 bg--white-100 block-shadow r-08">
-
-									<!-- Quote Icon -->
-									<div class="review-ico ico-65"><span class="flaticon-quote"></span></div>
-
-									<!-- Text -->
-									<div class="review-txt">
-
-										<!-- Text -->
-										<p>An augue cubilia undo laoreet magna suscipit egestas ipsum lectus purus ipsum
-										and primis augue an ultrice ligula egestas suscipit a lectus gestas auctor tempus
-										feugiat impedit
-										</p>
-
-										<!-- Author -->
-										<div class="author-data clearfix">
-
-											<!-- Avatar -->
-											<div class="review-avatar">
-												<img src="/_web/images/review-author-5.jpg" alt="review-avatar">
-											</div>
-
-											<!-- Data -->
-											<div class="review-author">
-												<h6 class="s-18 w-700">Jennifer Harper</h6>
-												<p class="p-sm">App Developer</p>
-											</div>
-
-										</div>	<!-- End Author -->
-
-									</div>	<!-- End Text -->
-
-								</div>	<!-- END TESTIMONIAL #5 -->
-
-
-								<!-- TESTIMONIAL #6 -->
-								<div class="review-1 bg--white-100 block-shadow r-08">
-
-									<!-- Quote Icon -->
-									<div class="review-ico ico-65"><span class="flaticon-quote"></span></div>
-
-									<!-- Text -->
-									<div class="review-txt">
-
-										<!-- Text -->
-										<p>An augue cubilia laoreet undo magna ipsum semper suscipit egestas magna ipsum
-										ligula a vitae purus and ipsum primis cubilia magna suscipit
-										</p>
-
-										<!-- Author -->
-										<div class="author-data clearfix">
-
-											<!-- Avatar -->
-											<div class="review-avatar">
-												<img src="/_web/images/review-author-6.jpg" alt="review-avatar">
-											</div>
-
-											<!-- Data -->
-											<div class="review-author">
-												<h6 class="s-18 w-700">Jonathan Barnes</h6>
-												<p class="p-sm">jQuery Programmer</p>
-											</div>
-
-										</div>	<!-- End Author -->
-
-									</div>	<!-- End Text -->
-
-								</div>	<!-- END TESTIMONIAL #6 -->
-
-
-								<!-- TESTIMONIAL #7 -->
-								<div class="review-1 bg--white-100 block-shadow r-08">
-
-									<!-- Quote Icon -->
-									<div class="review-ico ico-65"><span class="flaticon-quote"></span></div>
-
-									<!-- Text -->
-									<div class="review-txt">
-
-										<!-- Text -->
-										<p>Augue egestas porta tempus volutpat egestas augue cubilia laoreet a magna
-										suscipit luctus dolor blandit vitae purus neque tempus an aliquet porta gestas
-										rutrum blandit vitae
-										</p>
-
-										<!-- Author -->
-										<div class="author-data clearfix">
-
-											<!-- Avatar -->
-											<div class="review-avatar">
-												<img src="/_web/images/review-author-7.jpg" alt="review-avatar">
-											</div>
-
-											<!-- Data -->
-											<div class="review-author">
-												<h6 class="s-18 w-700">Mike Harris</h6>
-												<p class="p-sm">Graphic Designer</p>
-											</div>
-
-										</div>	<!-- End Author -->
-
-									</div>	<!-- End Text -->
-
-								</div>	<!-- END TESTIMONIAL #7 -->
-
-
-								<!-- TESTIMONIAL #8 -->
-								<div class="review-1 bg--white-100 block-shadow r-08">
-
-									<!-- Quote Icon -->
-									<div class="review-ico ico-65"><span class="flaticon-quote"></span></div>
-
-									<!-- Text -->
-									<div class="review-txt">
-
-										<!-- Text -->
-										<p>Augue at vitae purus tempus egestas volutpat augue undo cubilia laoreet magna
-										suscipit luctus dolor blandit at purus tempus feugiat impedit
-										</p>
-
-										<!-- Author -->
-										<div class="author-data clearfix">
-
-											<!-- Avatar -->
-											<div class="review-avatar">
-												<img src="/_web/images/review-author-8.jpg" alt="review-avatar">
-											</div>
-
-											<!-- Data -->
-											<div class="review-author">
-												<h6 class="s-18 w-700">Evelyn Martinez</h6>
-												<p class="p-sm">WordPress Consultant</p>
-											</div>
-
-										</div>	<!-- End Author -->
-
-									</div>	<!-- End Text -->
-
-								</div>	<!-- END TESTIMONIAL #8 -->
-
-
-							</div>
-						</div>
-					</div>	<!-- END TESTIMONIALS CONTENT -->
-
-
-				</div>	   <!-- End container -->
-			</section>	<!-- END TESTIMONIALS-1 -->
-
 
 
 
@@ -1923,138 +1782,6 @@
 							</div>
 						</div>
 					</div>
-
-
-					<!-- FAQs-3 QUESTIONS -->
-					<div class="faqs-3-questions">
-						<div class="row">
-
-
-							<!-- QUESTIONS HOLDER -->
-							<div class="col-lg-6">
-								<div class="questions-holder">
-
-
-									<!-- QUESTION #1 -->
-									<div class="question mb-35 wow fadeInUp">
-
-										<!-- Question -->
-										<h5 class="s-22 w-700"><span>1.</span> Getting started with Martex</h5>
-
-										<!-- Answer -->
-										<p class="color--grey">Etiam amet mauris suscipit in odio integer congue metus
-										and vitae arcu mollis blandit ultrice ligula egestas magna suscipit lectus magna
-										suscipit luctus blandit and laoreet
-										</p>
-
-									</div>
-
-
-									<!-- QUESTION #2 -->
-									<div class="question mb-35 wow fadeInUp">
-
-										<!-- Question -->
-										<h5 class="s-22 w-700"><span>2.</span> What's inside the package?</h5>
-
-										<!-- Answer -->
-										<p class="color--grey">An enim nullam tempor sapien gravida donec ipsum and enim
-											porta justo integer at velna vitae auctor integer congue undo magna laoreet
-											augue pretium purus pretium ligula
-										</p>
-
-									</div>
-
-
-									<!-- QUESTION #3 -->
-									<div class="question mb-35 wow fadeInUp">
-
-										<!-- Question -->
-										<h5 class="s-22 w-700"><span>3.</span> How do I choose a plan?</h5>
-
-										<!-- Answer -->
-										<ul class="simple-list color--grey">
-
-											<li class="list-item">
-												<p>Fringilla risus, luctus mauris orci auctor purus ligula euismod pretium
-												purus pretium rutrum tempor sapien
-												</p>
-											</li>
-
-											<li class="list-item">
-												<p>Nemo ipsam egestas volute undo turpis purus lipsum primis aliquam sapien
-												quaerat sodales pretium a purus
-												</p>
-											</li>
-
-										</ul>
-
-									</div>
-
-
-								</div>
-							</div>	<!-- END QUESTIONS HOLDER -->
-
-
-							<!-- QUESTIONS WRAPPER -->
-							<div class="col-lg-6">
-								<div class="questions-holder">
-
-
-									<!-- QUESTION #4 -->
-									<div class="question mb-35 wow fadeInUp">
-
-										<!-- Question -->
-										<h5 class="s-22 w-700"><span>4.</span> How does Martex handle my privacy?</h5>
-
-										<!-- Answer -->
-										<p class="color--grey">Quaerat sodales sapien euismod blandit purus a purus
-											ipsum primis in cubilia laoreet augue luctus dolor luctus
-										</p>
-
-										<!-- Answer -->
-										<p class="color--grey">An enim nullam tempor sapien gravida donec congue metus.
-											Vitae arcu mollis blandit integer nemo volute velna
-										</p>
-
-									</div>
-
-
-									<!-- QUESTION #5 -->
-									<div class="question mb-35 wow fadeInUp">
-
-										<!-- Question -->
-										<h5 class="s-22 w-700"><span>5.</span> I have an issue with my account</h5>
-
-										<!-- Answer -->
-										<p class="color--grey">Cubilia laoreet augue egestas and luctus donec curabite
-											diam vitae dapibus libero and quisque gravida donec neque blandit justo
-											aliquam molestie nunc sapien justo
-										</p>
-
-									</div>
-
-
-									<!-- QUESTION #6 -->
-									<div class="question mb-35 wow fadeInUp">
-
-										<!-- Question -->
-										<h5 class="s-22 w-700"><span>6.</span> Can I cancel at anytime?</h5>
-
-										<!-- Answer -->
-										<p class="color--grey">An enim nullam tempor sapien gravida donec ipsum and enim
-											porta justo integer at velna vitae auctor integer congue undo magna laoreet
-											augue pretium purus pretium ligula
-										</p>
-
-									</div>
-
-
-								</div>
-							</div>	<!-- END QUESTIONS HOLDER -->
-
-
-						</div>  <!-- End row -->
-					</div>	<!-- END FAQs-3 QUESTIONS -->
 
 
 					<!-- MORE QUESTIONS LINK -->

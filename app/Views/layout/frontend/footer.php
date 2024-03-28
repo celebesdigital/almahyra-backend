@@ -144,21 +144,22 @@
 
 		<!-- EXTERNAL SCRIPTS
 		============================================= -->
-		<script src="/_web/js/jquery-3.6.4.min.js"></script>
+		<script src="/_web/js/popper.min.js"></script>
 		<script src="/_web/js/bootstrap.min.js"></script>
+		<script src="/_web/js/jquery-3.6.4.min.js"></script>
 		<script src="/_web/js/modernizr.custom.js"></script>
 		<script src="/_web/js/jquery.easing.js"></script>
 		<script src="/_web/js/jquery.appear.js"></script>
-		<script src="/_web/js/menu.js"></script>
-		<script src="/_web/js/owl.carousel.min.js"></script>
-		<script src="/_web/js/pricing-toggle.js"></script>
-		<script src="/_web/js/jquery.magnific-popup.min.js"></script>
-		<script src="/_web/js/request-form.js"></script>
-		<script src="/_web/js/jquery.validate.min.js"></script>
-		<script src="/_web/js/jquery.ajaxchimp.min.js"></script>
-		<script src="/_web/js/popper.min.js"></script>
 		<script src="/_web/js/lunar.js"></script>
+		<script src="/_web/js/owl.carousel.min.js"></script>
 		<script src="/_web/js/wow.js"></script>
+		<script src="/_web/js/jquery.validate.min.js"></script>
+		<script src="/_web/js/jquery.magnific-popup.min.js"></script>
+		<script src="/_web/js/menu.js"></script>
+		<script src="/vendors/fontawesome/all.min.js"></script>
+		<script src="/_web/js/request-form.js"></script>
+		<script src="/_web/js/jquery.ajaxchimp.min.js"></script>
+		<script src="/_web/js/pricing-toggle.js"></script>
 
 		<!-- Custom Script -->
 		<script src="/_web/js/custom.js"></script>

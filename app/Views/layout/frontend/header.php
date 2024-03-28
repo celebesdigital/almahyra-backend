@@ -18,11 +18,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!-- SITE TITLE -->
-	<title>Martex - Software, App, SaaS & Startup Landing Pages Pack</title>
+	<title>PT. Almahyra Makmur Bersama | Herbal Oil Almahyra</title>
 
 	<!-- FAVICON AND TOUCH ICONS -->
 	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="/_web/images/logo/just-logo-square.png" type="image/x-icon">
 	<link rel="apple-touch-icon" sizes="152x152" href="images/apple-touch-icon-152x152.png">
 	<link rel="apple-touch-icon" sizes="120x120" href="images/apple-touch-icon-120x120.png">
 	<link rel="apple-touch-icon" sizes="76x76" href="images/apple-touch-icon-76x76.png">
@@ -53,11 +53,12 @@
 
 	<!-- TEMPLATE CSS -->
 	<link href="/_web/css/style.css" rel="stylesheet">
-	<link href="/_web/css/custom.css" rel="stylesheet">
 
 	<!-- RESPONSIVE CSS -->
 	<link href="/_web/css/responsive.css" rel="stylesheet">
 
+	<!-- CUSTOM STYLE -->
+	<link href="/_web/css/custom.css" rel="stylesheet">
 </head>
 
 
@@ -85,13 +86,29 @@
 
 				<!-- MOBILE HEADER -->
 				<div class="wsmobileheader clearfix">
-					<span class="smllogo"><img src="/_web/images/logo-pink.png" alt="mobile-logo"></span>
+					<span class="smllogo"><img src="/_web/images/logo/horizon-logo.png" alt="mobile-logo"></span>
 					<a id="wsnavtoggle" class="wsanimated-arrow"><span></span></a>
 				</div>
 
+				<!-- NAVIGATION MENU -->
+				<div class="wsmainfull menu clearfix">
+					<div class="wsmainwp clearfix">
 
-				<?= $this->include('layout/frontend/navbar');; ?>
 
+						<!-- HEADER BLACK LOGO -->
+						<div class="desktoplogo">
+							<a href="#hero-1" class="logo-black"><img src="/_web/images/logo/horizon-logo.png" alt="logo"></a>
+						</div>
+
+						<!-- HEADER WHITE LOGO -->
+						<div class="desktoplogo">
+							<a href="#hero-1" class="logo-white"><img src="/_web/images/logo/horizon-logo.png" alt="logo"></a>
+						</div>
+
+						<?= $this->include('layout/frontend/navbar');; ?>
+
+					</div>
+				</div>	<!-- END NAVIGATION MENU -->
 
 			</div>     <!-- End header-wrapper -->
 		</header>	<!-- END HEADER -->

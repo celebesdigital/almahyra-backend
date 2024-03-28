@@ -10,7 +10,7 @@
 				stok anda
 			</p>
 			<div class="example fw-bolder">
-				<div><?= $stok ?></div>
+				<div><?#= $stok ?></div>
 				<div class="satuan">pcs</div>
 			</div>
 

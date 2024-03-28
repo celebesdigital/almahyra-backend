@@ -6,5 +6,5 @@ use App\Controllers\BaseController;
 
 class BackendController extends BaseController
 {
-	//
+	public $data = [];
 }
